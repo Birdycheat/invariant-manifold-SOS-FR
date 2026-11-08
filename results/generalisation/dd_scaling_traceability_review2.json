@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "status": "raw_files_recovered_ordered_gram_bases_not_retained",
+  "historical_summary": {
+    "path": "results/generalisation/dd_scaling_review.json",
+    "bytes": 8194,
+    "sha256": "ba2ba3eba39b1d59a60a4d06ddd1ac1d0d82e2a6e0f40c5a2c40c88a261cf7f2",
+    "modified": false
+  },
+  "raw_files": [
+    {
+      "source_path": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\N1_m5_s01_unscaled_dd.json",
+      "copy_path": "data/review_dd_scaling/raw/N1_m5_s01_unscaled_dd.json",
+      "bytes": 8036,
+      "sha256": "cb5e80956a4143dd659efd6b7bd3cf9ab781759332da814742e9cb40b9c54787",
+      "instance": "N1_m5_s01",
+      "variant": "unscaled_dd",
+      "summary_pointer": "/instances/0/runs/0",
+      "historical_ordered_gram_basis_exponents_present": false
+    },
+    {
+      "source_path": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\N1_m5_s01_jet_row_scaled_dd.json",
+      "copy_path": "data/review_dd_scaling/raw/N1_m5_s01_jet_row_scaled_dd.json",
+      "bytes": 8027,
+      "sha256": "bcc73bb8fda794bcc46af12b77a8311fa624791a987389b6639d29b545949b12",
+      "instance": "N1_m5_s01",
+      "variant": "jet_row_scaled_dd",
+      "summary_pointer": "/instances/0/runs/1",
+      "historical_ordered_gram_basis_exponents_present": false
+    },
+    {
+      "source_path": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\N1_m7_s01_unscaled_dd.json",
+      "copy_path": "data/review_dd_scaling/raw/N1_m7_s01_unscaled_dd.json",
+      "bytes": 15354,
+      "sha256": "b1ee7b82d1c83177730255fa78fc4bf60ee24d7feafe7c3714402c9d4ac5146c",
+      "instance": "N1_m7_s01",
+      "variant": "unscaled_dd",
+      "summary_pointer": "/instances/1/runs/0",
+      "historical_ordered_gram_basis_exponents_present": false
+    },
+    {
+      "source_path": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\N1_m7_s01_jet_row_scaled_dd.json",
+      "copy_path": "data/review_dd_scaling/raw/N1_m7_s01_jet_row_scaled_dd.json",
+      "bytes": 15354,
+      "sha256": "c3a9f0466984614fbf1dabc096aea717793bc473c52ba6449e8224f288b64730",
+      "instance": "N1_m7_s01",
+      "variant": "jet_row_scaled_dd",
+      "summary_pointer": "/instances/1/runs/1",
+      "historical_ordered_gram_basis_exponents_present": false
+    }
+  ],
+  "sidecars": [
+    {
+      "source_path": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\matlab.log",
+      "copy_path": "data/review_dd_scaling/raw/matlab.log",
+      "bytes": 397,
+      "sha256": "eb23719cd1620ca31df5f3661161fb1e91b09cff29c2a59c8b6fd6470bb27fc2"
+    },
+    {
+      "source_path": "C:\\Users\\angouf\\OneDrive - polymtl\\central_manifold_2027\\code\\review_dd_scaling.m",
+      "copy_path": "data/review_dd_scaling/historical_review_dd_scaling.m",
+      "bytes": 9252,
+      "sha256": "402fbb97ab40ae59865ff074edfda2c43b9c5894ae273c87d5e148ba1c80642e"
+    }
+  ],
+  "evidence_scope": {
+    "recovered_from_original_temporary_directory": true,
+    "candidate_coefficients_and_witnesses": true,
+    "actual_binary64_scale_vectors": true,
+    "numeric_gram_matrices": true,
+    "ordered_gram_basis_exponents": false,
+    "independent_reconstruction_of_frlib_reduced_sizes": false
+  },
+  "interpretation": "The original raw files retain the actual applied diagonals and numerical Q blocks. They do not retain ordered Gram monomial exponents. No missing basis was reconstructed or presented as original metadata. The E field is the candidate-polynomial basis, not the three Gram bases. Recorded reduced sizes remain historical solver diagnostics.",
+  "scale_field_convention": "scales contains the actual used binary64 vectors for each run. exact_scales is the jet-derived symbolic target vector in both variants, and therefore is not the applied vector in unscaled_dd.",
+  "source_snapshot_note": "historical_review_dd_scaling.m is the exporter source snapshot immediately before the review-2 metadata enhancement; this records the retained recipe and does not assert a historical git revision.",
+  "no_sdp_reexecuted": true
+}

@@ -1,0 +1,1395 @@
+[
+ {
+  "instance": "a_11_4",
+  "a": "11/4",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.01377844239383095,
+    "t_first": 0.01377844239383095,
+    "e": 0.017586876881377004,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.01758688,
+     "move_W": 2.9508887795967117e-10,
+     "correction": 4.285714285714286e-09,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 0.0026071647416062035,
+    "t_first": 0.0026071647416062035,
+    "e": 0.002607164753999758,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00260716,
+     "move_W": 8.262488582870794e-10,
+     "correction": 1.8511254767559622e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.004037773771802618,
+    "t_first": 0.004037773771802618,
+    "e": 0.004037773744831646,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00403777,
+     "move_W": 7.082133071032108e-10,
+     "correction": 1.600687398538961e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.0040678426069433735,
+    "t_first": 0.0040678426069433735,
+    "e": 0.004067842604987146,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00406784,
+     "move_W": 1.0623199606548164e-09,
+     "correction": 9.4906585779503e-09,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_13_4",
+  "a": "13/4",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.013273644469192646,
+    "t_first": 0.013273644469192646,
+    "e": 0.029743342412153026,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.02974334,
+     "move_W": 2.5739456100778822e-09,
+     "correction": 1e-08,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 0.0013938481553398179,
+    "t_first": 0.0013938481553398179,
+    "e": 0.0013938483538846766,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00139385,
+     "move_W": 1.378899433970294e-10,
+     "correction": 2.0468302029988638e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.00253512167046851,
+    "t_first": 0.00253512167046851,
+    "e": 0.0025351216745688587,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00253512,
+     "move_W": 9.192662893135294e-11,
+     "correction": 1.1899855792280854e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.002572466920552612,
+    "t_first": 0.002572466920552612,
+    "e": 0.0025724670359206607,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00257247,
+     "move_W": 2.619908924543559e-09,
+     "correction": 1.9426166145112534e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_15_4",
+  "a": "15/4",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.0116153525548864,
+    "t_first": 0.0116153525548864,
+    "e": 0.09752294367843417,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.09752294,
+     "move_W": 7.51769587503051e-10,
+     "correction": 9.84375e-09,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 6.470371526108682e-10,
+    "t_first": -3.2992076513165534e-10,
+    "e": 9.513904922449966e-10,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 9.5139e-10,
+     "move_W": 5.4049e-10,
+     "correction": 1.987824273550491e-09,
+     "sizes": [
+      5,
+      17,
+      12
+     ],
+     "reasons": [
+      "Q_W x^1 z^0: 0.00e+00",
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 monomes hors face [(3, 1), (6, 0), (7, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.0003744484824313842,
+    "t_first": 0.0003744484824313842,
+    "e": 0.0003744491009479906,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00037445,
+     "move_W": 2.255308762509153e-09,
+     "correction": 3.573240873346953e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.0004446346049482101,
+    "t_first": 0.0004446346049482101,
+    "e": 0.0004446348181986631,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00044463,
+     "move_W": 2.1479131071515744e-10,
+     "correction": 1.9200051670663326e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_17_4",
+  "a": "17/4",
+  "class": "unstable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 9.855985934759095e-09,
+    "t_first": -1.7113561202123982e-10,
+    "e": 1.0788617385759843e-08,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 1.078862e-08,
+     "move_W": 1.5225e-10,
+     "correction": 1.9498535389957265e-09,
+     "sizes": [
+      4,
+      32,
+      25
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(6, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 1.658231296042471e-08,
+    "t_first": -1.9099126415249257e-10,
+    "e": 1.740796433028404e-08,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 1.740796e-08,
+     "move_W": 1.5615e-10,
+     "correction": 3.744393871127137e-09,
+     "sizes": [
+      4,
+      17,
+      12
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 3 monomes hors face [(3, 1), (6, 0), (7, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 7.858799344862803e-07,
+    "t_first": -8.905314396073859e-10,
+    "e": 8.013810982512006e-07,
+    "iter": 3,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 8.013811e-07,
+     "move_W": 1.48409e-09,
+     "correction": 2.0083356613999065e-08,
+     "sizes": [
+      4,
+      17,
+      12
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 3 monomes hors face [(3, 1), (6, 0), (7, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 2.0517172096895596e-06,
+    "t_first": -5.841559595000317e-10,
+    "e": 2.1278566480331773e-06,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 2.12785665e-06,
+     "move_W": 8.7876e-10,
+     "correction": 1.1661747847748064e-08,
+     "sizes": [
+      4,
+      17,
+      12
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 3 monomes hors face [(3, 1), (6, 0), (7, 0)]"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_2_1",
+  "a": "2",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.013258286115363161,
+    "t_first": 0.013258286115363161,
+    "e": 0.017743394476897125,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.01774339,
+     "move_W": 0.0,
+     "correction": 1.015625e-08,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 0.0017679290783554412,
+    "t_first": 0.0017679290783554412,
+    "e": 0.0017679289695534909,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00176793,
+     "move_W": 2.7272727272727274e-09,
+     "correction": 2.335316062668681e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.003685666481170582,
+    "t_first": 0.003685666481170582,
+    "e": 0.0036856663482442167,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00368567,
+     "move_W": 1.3636363636363637e-09,
+     "correction": 1.2159927780244736e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.0037352797829939954,
+    "t_first": 0.0037352797829939954,
+    "e": 0.003735279740604491,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00373528,
+     "move_W": 2.7272727272727274e-09,
+     "correction": 1e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_3_1",
+  "a": "3",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.021957902812291003,
+    "t_first": 0.021957902812291003,
+    "e": 0.028038873053487727,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.02803887,
+     "move_W": 0.0,
+     "correction": 4.21875e-09,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 0.002253994548571154,
+    "t_first": 0.002253994548571154,
+    "e": 0.002253994546379209,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00225399,
+     "move_W": 0.0,
+     "correction": 2.045474009907229e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.003503054301720838,
+    "t_first": 0.003503054301720838,
+    "e": 0.0035030542922821935,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00350305,
+     "move_W": 0.0,
+     "correction": 1.2491900805148164e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.0035293062669750188,
+    "t_first": 0.0035293062669750188,
+    "e": 0.003529306261100732,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00352931,
+     "move_W": 0.0,
+     "correction": 1.5003665500607482e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_3_2",
+  "a": "3/2",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.012171657144106588,
+    "t_first": 0.012171657144106588,
+    "e": 0.012171658141538878,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.01217166,
+     "move_W": 0.0,
+     "correction": 6.328125e-09,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 4.356709742456384e-10,
+    "t_first": -1.5895639479577103e-10,
+    "e": 5.071347247338062e-10,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 5.0713e-10,
+     "move_W": 9.228e-11,
+     "correction": 4.4394657625e-08,
+     "sizes": [
+      4,
+      17,
+      12
+     ],
+     "reasons": [
+      "sommet 0 Q2 x^4 z^0: -3.87e-08",
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 Q2 x^4 z^0: -3.87e-08"
+     ]
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.0009090967179057769,
+    "t_first": 0.0009090967179057769,
+    "e": 0.000909096688794556,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.0009091,
+     "move_W": 1.7647058823529412e-09,
+     "correction": 2.9249090303507415e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.0022572201344637343,
+    "t_first": 0.0022572201344637343,
+    "e": 0.0022572205970332855,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00225722,
+     "move_W": 0.0,
+     "correction": 1.7712628352942057e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_4_1",
+  "a": "4",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.009058240301429559,
+    "t_first": 0.009058240301429559,
+    "e": 0.25232703902409614,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.25232704,
+     "move_W": 1.5168539325842697e-09,
+     "correction": 6.417722078523721e-09,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 2.3029911853133748e-08,
+    "t_first": 1.1416121155175443e-10,
+    "e": 2.3809025674786954e-08,
+    "iter": 3,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 2.380903e-08,
+     "move_W": 1.608e-10,
+     "correction": 2.336072478877315e-09,
+     "sizes": [
+      4,
+      17,
+      12
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 3 monomes hors face [(3, 1), (6, 0), (7, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": -7.165802663804616e-10,
+    "t_first": -7.165802663804616e-10,
+    "e": 2.8001918818559043e-09,
+    "iter": 1,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 2.80019e-09,
+     "move_W": 1.7929213483146067e-11,
+     "correction": 1.7183766149217385e-10,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": [
+      "sommet 0 Q2 x^3 z^0: -1.52e-10",
+      "sommet 1 Q2 x^3 z^0: -1.14e-10",
+      "sommet 2 Q2 x^3 z^0: -1.98e-10",
+      "sommet 3 Q2 x^3 z^0: -1.17e-10"
+     ]
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 2.7080547813891978e-05,
+    "t_first": 2.7080547813891978e-05,
+    "e": 2.708562392807329e-05,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 2.709e-05,
+     "move_W": 2.5280898876404493e-09,
+     "correction": 7.394008852247503e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_5_1",
+  "a": "5",
+  "class": "unstable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 4.656196499894985e-09,
+    "t_first": -5.70187846649584e-10,
+    "e": 5.19971177579581e-09,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 5.19971e-09,
+     "move_W": 2.0976e-10,
+     "correction": 6.429597517361111e-09,
+     "sizes": [
+      4,
+      32,
+      25
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(6, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 1.9335578898757854e-11,
+    "t_first": -4.2538607878289583e-10,
+    "e": 1.6422132703356349e-09,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 1.64221e-09,
+     "move_W": 6.703e-11,
+     "correction": 3.854037771508147e-09,
+     "sizes": [
+      4,
+      18,
+      12
+     ],
+     "reasons": [
+      "sommet 0 Q2 x^3 z^0: -3.04e-10",
+      "sommet 1 Q2 x^3 z^0: -1.78e-10",
+      "sommet 2 Q2 x^3 z^0: -3.00e-10",
+      "sommet 3 Q2 x^3 z^0: -1.84e-10"
+     ]
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": -1.3393871956522144e-09,
+    "t_first": -1.1246768818540369e-09,
+    "e": 2.9339680932752497e-09,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 2.93397e-09,
+     "move_W": 3.203e-11,
+     "correction": 5.455449417274656e-10,
+     "sizes": [
+      4,
+      18,
+      12
+     ],
+     "reasons": [
+      "sommet 0 Q2 x^3 z^0: -6.21e-10",
+      "sommet 1 Q2 x^3 z^0: -7.19e-10",
+      "sommet 2 Q2 x^3 z^0: -8.85e-10",
+      "sommet 3 Q2 x^3 z^0: -5.91e-10"
+     ]
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": -4.2303318622141955e-10,
+    "t_first": -2.1246511633258047e-10,
+    "e": 2.9602747192486556e-08,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 2.960275e-08,
+     "move_W": 5.908e-11,
+     "correction": 9.61424837357245e-10,
+     "sizes": [
+      4,
+      18,
+      12
+     ],
+     "reasons": [
+      "sommet 0 Q2 x^3 z^0: -6.56e-10",
+      "sommet 1 Q2 x^3 z^0: -5.57e-10",
+      "sommet 2 Q2 x^3 z^0: -5.96e-10",
+      "sommet 3 Q2 x^3 z^0: -5.52e-10"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_5_2",
+  "a": "5/2",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.013718245648327297,
+    "t_first": 0.013718245648327297,
+    "e": 0.01727140942620055,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.01727141,
+     "move_W": 1.0698365527488856e-09,
+     "correction": 1.2791666666666667e-08,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 0.0026369361226896994,
+    "t_first": 0.0026369361226896994,
+    "e": 0.0026369361299716774,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00263694,
+     "move_W": 2.674591381872214e-09,
+     "correction": 1.6096325269347813e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.004210798612957521,
+    "t_first": 0.004210798612957521,
+    "e": 0.004210798611344993,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.0042108,
+     "move_W": 3.7444279346211e-09,
+     "correction": 1.0229817708333333e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.00424564668489418,
+    "t_first": 0.00424564668489418,
+    "e": 0.004245646604792404,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00424565,
+     "move_W": 2.674591381872214e-10,
+     "correction": 1.2869791666666666e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_6_1",
+  "a": "6",
+  "class": "unstable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 9.475050162538823e-09,
+    "t_first": -1.8771436294936903e-10,
+    "e": 1.3419032549649843e-08,
+    "iter": 3,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 1.341903e-08,
+     "move_W": 4.1531e-10,
+     "correction": 3.3371422235416665e-08,
+     "sizes": [
+      4,
+      32,
+      25
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(6, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": -1.1975080451007775e-09,
+    "t_first": 5.6475353222719744e-11,
+    "e": 7.38324211093454e-09,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 7.38324e-09,
+     "move_W": 9.072e-11,
+     "correction": 3.426496275141322e-08,
+     "sizes": [
+      4,
+      18,
+      12
+     ],
+     "reasons": [
+      "sommet 0 Q2 x^3 z^0: -1.09e-09",
+      "sommet 1 Q2 x^3 z^0: -1.09e-09",
+      "sommet 2 Q2 x^3 z^0: -1.15e-09",
+      "sommet 3 Q2 x^3 z^0: -1.11e-09"
+     ]
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": -7.990068043579289e-10,
+    "t_first": -2.5720475507728864e-10,
+    "e": 4.8486422109666756e-09,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 4.84864e-09,
+     "move_W": 5.886e-11,
+     "correction": 2.816537912124954e-09,
+     "sizes": [
+      4,
+      18,
+      12
+     ],
+     "reasons": [
+      "sommet 0 Q2 x^3 z^0: -5.17e-10",
+      "sommet 1 Q2 x^3 z^0: -5.25e-10",
+      "sommet 2 Q2 x^3 z^0: -5.80e-10",
+      "sommet 3 Q2 x^3 z^0: -5.04e-10"
+     ]
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": -6.550677978379674e-12,
+    "t_first": -3.381210307864702e-10,
+    "e": 4.033645953542358e-08,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 4.033646e-08,
+     "move_W": 3.524e-11,
+     "correction": 1.5094852792324062e-09,
+     "sizes": [
+      4,
+      18,
+      12
+     ],
+     "reasons": [
+      "sommet 0 Q2 x^3 z^0: -1.90e-10",
+      "sommet 1 Q2 x^3 z^0: -1.65e-10",
+      "sommet 2 Q2 x^3 z^0: -1.91e-10",
+      "sommet 3 Q2 x^3 z^0: -1.58e-10"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_7_2",
+  "a": "7/2",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.012675063751515725,
+    "t_first": 0.012675063751515725,
+    "e": 0.054107645839043296,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.05410765,
+     "move_W": 1.7847485127095728e-09,
+     "correction": 9.486607142857142e-09,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 0.00047935699432536186,
+    "t_first": 0.00047935699432536186,
+    "e": 0.0004793569253569203,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00047936,
+     "move_W": 2.758247701460249e-09,
+     "correction": 3.339512099127615e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.0013347974774261687,
+    "t_first": 0.0013347974774261687,
+    "e": 0.0013347977220649683,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.0013348,
+     "move_W": 3.5694970254191457e-09,
+     "correction": 2.58022913202746e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.00138816848558322,
+    "t_first": 0.00138816848558322,
+    "e": 0.0013881684864423523,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00138817,
+     "move_W": 2.43374797187669e-09,
+     "correction": 2.958911918464909e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_7_4",
+  "a": "7/4",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.012908977691522874,
+    "t_first": 0.012908977691522874,
+    "e": 0.013096734280636669,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.01309673,
+     "move_W": 2.452187581870579e-09,
+     "correction": 6.517857142857143e-09,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 0.0002466310670791014,
+    "t_first": 0.0002466310670791014,
+    "e": 0.0002466310707943136,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00024663,
+     "move_W": 1.9806130468954675e-09,
+     "correction": 3.4248216113420126e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.0029977514346843756,
+    "t_first": 0.0029977514346843756,
+    "e": 0.002997751462690296,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00299775,
+     "move_W": 1.5090385119203562e-09,
+     "correction": 1.3551612939173001e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.0031170715750956784,
+    "t_first": 0.0031170715750956784,
+    "e": 0.003117071621411456,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00311707,
+     "move_W": 7.545192559601781e-10,
+     "correction": 1.0407157116013498e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_9_2",
+  "a": "9/2",
+  "class": "unstable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 1.1083587292865575e-08,
+    "t_first": -1.6536537797899915e-11,
+    "e": 1.1314903415176959e-08,
+    "iter": 2,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 1.13149e-08,
+     "move_W": 2.7755e-10,
+     "correction": 4.8493532633928575e-09,
+     "sizes": [
+      4,
+      32,
+      25
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(6, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 1.1236044962626099e-08,
+    "t_first": -6.413174228351995e-10,
+    "e": 1.3542362841064852e-08,
+    "iter": 3,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 1.354236e-08,
+     "move_W": 1.7948e-10,
+     "correction": 7.285413215401786e-09,
+     "sizes": [
+      4,
+      17,
+      12
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 3 monomes hors face [(3, 1), (6, 0), (7, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 1.0719839206587682e-06,
+    "t_first": -1.0902822675247731e-09,
+    "e": 1.1510114167151224e-06,
+    "iter": 3,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 1.15101142e-06,
+     "move_W": 2.33961e-09,
+     "correction": 4.385280976395089e-08,
+     "sizes": [
+      4,
+      17,
+      12
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 3 monomes hors face [(3, 1), (6, 0), (7, 0)]"
+     ]
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 1.5290400292534523e-06,
+    "t_first": -3.139238358523195e-10,
+    "e": 1.6368208701924034e-06,
+    "iter": 3,
+    "proved": false,
+    "attempt": {
+     "digits": 14,
+     "eta": 1.63682087e-06,
+     "move_W": 8.1089e-10,
+     "correction": 1.4802773353306362e-08,
+     "sizes": [
+      4,
+      17,
+      12
+     ],
+     "reasons": [
+      "sommet 0 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 1 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 2 monomes hors face [(3, 1), (6, 0), (7, 0)]",
+      "sommet 3 monomes hors face [(3, 1), (6, 0), (7, 0)]"
+     ]
+    }
+   }
+  }
+ },
+ {
+  "instance": "a_9_4",
+  "a": "9/4",
+  "class": "stable",
+  "programs": {
+   "A_center_q2": {
+    "problem": 0,
+    "t": 0.013529348314814676,
+    "t_first": 0.013529348314814676,
+    "e": 0.01982490320177173,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.0198249,
+     "move_W": 1.1350737797956868e-09,
+     "correction": 8.385416666666667e-09,
+     "sizes": [
+      5,
+      33,
+      25
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r16": {
+    "problem": 0,
+    "t": 0.002370384711070293,
+    "t_first": 0.002370384711070293,
+    "e": 0.002370384711120634,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00237038,
+     "move_W": 2.2701475595913733e-10,
+     "correction": 1.9764225422155662e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r32": {
+    "problem": 0,
+    "t": 0.004082300339767692,
+    "t_first": 0.004082300339767692,
+    "e": 0.004082300334784263,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.0040823,
+     "move_W": 2.043132803632236e-09,
+     "correction": 1.0044921875e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   },
+   "B_center_q2_r64": {
+    "problem": 0,
+    "t": 0.004122687944858178,
+    "t_first": 0.004122687944858178,
+    "e": 0.004122687935677507,
+    "iter": 1,
+    "proved": true,
+    "attempt": {
+     "digits": 8,
+     "eta": 0.00412269,
+     "move_W": 2.4971623155505108e-09,
+     "correction": 1.28955078125e-08,
+     "sizes": [
+      5,
+      18,
+      12
+     ],
+     "reasons": []
+    }
+   }
+  }
+ }
+]

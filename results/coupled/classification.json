@@ -1,0 +1,2830 @@
+{
+ "summary": {
+  "SOS|stable": {
+   "instances": 34,
+   "success": 34,
+   "invalid": 34,
+   "no_violation": 0,
+   "median_r_bad": 0.012351392675518255,
+   "max_r_bad": 0.05,
+   "min_r_bad": 0.005
+  },
+  "SOS|unstable": {
+   "instances": 6,
+   "success": 0,
+   "invalid": 0,
+   "no_violation": 0,
+   "median_r_bad": null,
+   "max_r_bad": null,
+   "min_r_bad": null
+  },
+  "frlib d|stable": {
+   "instances": 34,
+   "success": 34,
+   "invalid": 34,
+   "no_violation": 0,
+   "median_r_bad": 2.8117066259517454e-05,
+   "max_r_bad": 0.0005,
+   "min_r_bad": 8.891397050194615e-07
+  },
+  "frlib d|unstable": {
+   "instances": 6,
+   "success": 0,
+   "invalid": 0,
+   "no_violation": 0,
+   "median_r_bad": null,
+   "max_r_bad": null,
+   "min_r_bad": null
+  },
+  "frlib dd|stable": {
+   "instances": 34,
+   "success": 34,
+   "invalid": 34,
+   "no_violation": 0,
+   "median_r_bad": 2.8117066259517454e-05,
+   "max_r_bad": 0.0005,
+   "min_r_bad": 8.891397050194615e-07
+  },
+  "frlib dd|unstable": {
+   "instances": 6,
+   "success": 0,
+   "invalid": 0,
+   "no_violation": 0,
+   "median_r_bad": null,
+   "max_r_bad": null,
+   "min_r_bad": null
+  },
+  "jet|stable": {
+   "instances": 34,
+   "success": 34,
+   "invalid": 34,
+   "no_violation": 0,
+   "median_r_bad": 0.008891397050194615,
+   "max_r_bad": 0.028117066259517456,
+   "min_r_bad": 0.0008891397050194614
+  },
+  "jet|unstable": {
+   "instances": 6,
+   "success": 0,
+   "invalid": 0,
+   "no_violation": 0,
+   "median_r_bad": null,
+   "max_r_bad": null,
+   "min_r_bad": null
+  },
+  "Thm3|stable": {
+   "instances": 34,
+   "success": 34,
+   "invalid": 7,
+   "no_violation": 27,
+   "median_r_bad": 5e-06,
+   "max_r_bad": 8.891397050194615e-06,
+   "min_r_bad": 8.891397050194615e-07
+  },
+  "Thm3|unstable": {
+   "instances": 6,
+   "success": 0,
+   "invalid": 0,
+   "no_violation": 0,
+   "median_r_bad": null,
+   "max_r_bad": null,
+   "min_r_bad": null
+  }
+ },
+ "results": [
+  {
+   "instance": "cp_ny1_s01.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 1.7351687,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1581139/100000000",
+    "0",
+    "-177067508827151285336286142959/625000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s01.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 1.2919696,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "9486833/1000000000000",
+    "1264911/100000000000",
+    "2148514519639650743104857109631935343559/25000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s01.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.9326697,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "9486833/1000000000000",
+    "1264911/100000000000",
+    "2148514519639650743104857109631935343559/25000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s01.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6801079,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-2667419/500000000",
+    "-3556559/500000000",
+    "-2514674998793213229482920415937/3125000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s01.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5888815,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s02.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.755858,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "9486833/1000000000",
+    "-1264911/100000000",
+    "6530475024397323570243266744187243/25000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s02.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6833582,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "1264911/100000000000",
+    "9486833/1000000000000",
+    "2080030839557499488852799692531893223503/12500000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s02.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.187047,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "1264911/100000000000",
+    "9486833/1000000000000",
+    "2080030839557499488852799692531893223503/12500000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s02.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5864734,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-2489591/1000000000",
+    "8535741/1000000000",
+    "1132516262959360176003550083761/1250000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s02.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.4889527,
+   "status": "invalid",
+   "r_bad": 5e-06,
+   "witness": [
+    "-7/5000000",
+    "3/625000",
+    "257097256597/3125000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s03.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.9797549,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "3556559/500000000",
+    "2667419/500000000",
+    "-63683782814119471026279723419/585937500000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s03.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7312553,
+   "status": "invalid",
+   "r_bad": 1.5811388300841896e-06,
+   "witness": [
+    "186959/125000000000",
+    "2564009/5000000000000",
+    "-120159681886310573501351802212533961125031/26250000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s03.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.7602048,
+   "status": "invalid",
+   "r_bad": 1.5811388300841896e-06,
+   "witness": [
+    "186959/125000000000",
+    "2564009/5000000000000",
+    "-120159681886310573501351802212533961125031/26250000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s03.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7785543,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "3/1000",
+    "1/250",
+    "3875083/35000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s03.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5328828,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s04.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5895858,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-2667419/500000000",
+    "-3556559/500000000",
+    "659552752444112826156350496373371/6312500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s04.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.601538,
+   "status": "invalid",
+   "r_bad": 2.8117066259517456e-06,
+   "witness": [
+    "2811707/1000000000000",
+    "0",
+    "1584478484295085046243095679867301018781/101000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s04.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.063496,
+   "status": "invalid",
+   "r_bad": 2.8117066259517456e-06,
+   "witness": [
+    "2811707/1000000000000",
+    "0",
+    "1584478484295085046243095679867301018781/101000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s04.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6918305,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "472973/100000000",
+    "810811/500000000",
+    "1043805711820462593746369687967/6312500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s04.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6054753,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s05.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7136985,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "-1/200",
+    "0",
+    "-93374304743/8300000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s05.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6312131,
+   "status": "invalid",
+   "r_bad": 2.8117066259517456e-06,
+   "witness": [
+    "-1329861/500000000000",
+    "-9119049/10000000000000",
+    "-319585984306421025152014993901094367147619/207500000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s05.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 3.1121639,
+   "status": "invalid",
+   "r_bad": 2.8117066259517456e-06,
+   "witness": [
+    "-1329861/500000000000",
+    "-9119049/10000000000000",
+    "-319585984306421025152014993901094367147619/207500000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s05.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7094845,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "1/200",
+    "0",
+    "-7941723/33200000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s05.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.741472,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s06.json",
+   "name": "SOS",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 1.0432234,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s06.json",
+   "name": "frlib d",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 0.9249498,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s06.json",
+   "name": "frlib dd",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 3.3141519,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s06.json",
+   "name": "jet",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 0.9524802,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s06.json",
+   "name": "Thm3",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 1.5448825,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s07.json",
+   "name": "SOS",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 0.9528322,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s07.json",
+   "name": "frlib d",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 0.8750497,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s07.json",
+   "name": "frlib dd",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 2.3955654,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s07.json",
+   "name": "jet",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 1.1536198,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s07.json",
+   "name": "Thm3",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 1.6596145,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s08.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.614895,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1264911/100000000",
+    "9486833/1000000000",
+    "47977447461510859596718122187287/140000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s08.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.9693041,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "3556559/50000000000",
+    "2667419/50000000000",
+    "204104583807116380328084740728556937/18750000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s08.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.3087863,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "3556559/50000000000",
+    "2667419/50000000000",
+    "204104583807116380328084740728556937/18750000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s08.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.592848,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "3556559/500000000",
+    "2667419/500000000",
+    "-69985969322796915259271443063/187500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s08.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6155358,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s09.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6048283,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "2667419/500000000",
+    "-3556559/500000000",
+    "-21019758402126672151477035133213/277500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s09.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6249624,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "-105439/6250000000",
+    "449873/20000000000",
+    "-8446476677154299832227588742728938861/11100000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s09.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 1.9455179,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "-105439/6250000000",
+    "449873/20000000000",
+    "-8446476677154299832227588742728938861/11100000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s09.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6896778,
+   "status": "invalid",
+   "r_bad": 0.0008891397050194614,
+   "witness": [
+    "8891397/10000000000",
+    "0",
+    "-532049050001834722858709187604547/370000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s09.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5428536,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s10.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.666103,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-2667419/500000000",
+    "-3556559/500000000",
+    "397692078767046586847937033817311/4625000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s10.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.9486658,
+   "status": "invalid",
+   "r_bad": 8.891397050194615e-07,
+   "witness": [
+    "3556559/5000000000000",
+    "2667419/5000000000000",
+    "35672615715977332815020332170388560664071/46250000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s10.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.0830948,
+   "status": "invalid",
+   "r_bad": 8.891397050194615e-07,
+   "witness": [
+    "3556559/5000000000000",
+    "2667419/5000000000000",
+    "35672615715977332815020332170388560664071/46250000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s10.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5996982,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "-3/1000",
+    "-1/250",
+    "-23845779/185000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s10.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5170152,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s11.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7151111,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "2667419/500000000",
+    "3556559/500000000",
+    "997519424631238107867595124092187/5312500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s11.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 1.5353338,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "3556559/50000000000",
+    "2667419/50000000000",
+    "9418955900893954997012693072781253307/531250000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s11.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.2383262,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "3556559/50000000000",
+    "2667419/50000000000",
+    "9418955900893954997012693072781253307/531250000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s11.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7838087,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "7/5000",
+    "-3/625",
+    "-15822766401/106250000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s11.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5811692,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s12.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6425658,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1264911/100000000",
+    "9486833/1000000000",
+    "-44669190185528430538032206370683001/95000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s12.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6181486,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "2667419/50000000000",
+    "3556559/50000000000",
+    "-471590405870534878584142706124085179/31250000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s12.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.0409401,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "2667419/50000000000",
+    "3556559/50000000000",
+    "-471590405870534878584142706124085179/31250000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s12.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6070514,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8891397/1000000000",
+    "0",
+    "143588500006633228796871678262593/95000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s12.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5157595,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s13.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.5859404,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-8891397/1000000000",
+    "0",
+    "184930412437997579954453303053499/53500000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s13.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.8696465,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "2667419/50000000000",
+    "3556559/50000000000",
+    "4936843833508019686645892260394111199/668750000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s13.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.2732754,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "2667419/50000000000",
+    "3556559/50000000000",
+    "4936843833508019686645892260394111199/668750000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s13.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7008454,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "2667419/500000000",
+    "3556559/500000000",
+    "-1314227229571166607739605888801/6687500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s13.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7317341,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s14.json",
+   "name": "SOS",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 0.7959696,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s14.json",
+   "name": "frlib d",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 0.7383584,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s14.json",
+   "name": "frlib dd",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 2.4563967,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s14.json",
+   "name": "jet",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 1.0009475,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s14.json",
+   "name": "Thm3",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 1.8089774,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s15.json",
+   "name": "SOS",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 0.8078849,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s15.json",
+   "name": "frlib d",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 0.7852592,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s15.json",
+   "name": "frlib dd",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 2.3327966,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s15.json",
+   "name": "jet",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 0.9537673,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s15.json",
+   "name": "Thm3",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 1.6086667,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny1_s16.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6786776,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8891397/1000000000",
+    "0",
+    "-2291909800778810848998337129880071/86000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s16.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.680411,
+   "status": "invalid",
+   "r_bad": 5e-06,
+   "witness": [
+    "3/1000000",
+    "1/250000",
+    "3876739629954537/86000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s16.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 3.2500765,
+   "status": "invalid",
+   "r_bad": 5e-06,
+   "witness": [
+    "3/1000000",
+    "1/250000",
+    "3876739629954537/86000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s16.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6432227,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "1/200",
+    "0",
+    "129884513/430000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s16.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 1.2013265,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s17.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6855524,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1581139/100000000",
+    "0",
+    "-113683752900975868753280141533/2000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s17.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6509017,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "-1264911/100000000000",
+    "9486833/1000000000000",
+    "-733994730460076120726169455832206173111/2500000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s17.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.7896172,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "-1264911/100000000000",
+    "9486833/1000000000000",
+    "-733994730460076120726169455832206173111/2500000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s17.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7643709,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8891397/1000000000",
+    "0",
+    "30430450001834722858709187604547/20000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s17.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6329557,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s18.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7320752,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8891397/1000000000",
+    "0",
+    "-11228503363973855359254988610359787/85000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s18.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 1.5131322,
+   "status": "invalid",
+   "r_bad": 2.8117066259517456e-06,
+   "witness": [
+    "105439/62500000000",
+    "449873/200000000000",
+    "-1575806093957433122366134713340876190037/85000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s18.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.2877549,
+   "status": "invalid",
+   "r_bad": 2.8117066259517456e-06,
+   "witness": [
+    "105439/62500000000",
+    "449873/200000000000",
+    "-1575806093957433122366134713340876190037/85000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s18.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.8170062,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "1/200",
+    "0",
+    "39698837/170000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s18.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.490243,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny1_s19.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6695065,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "1/200",
+    "0",
+    "1604309907/35000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s19.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7107763,
+   "status": "invalid",
+   "r_bad": 5e-06,
+   "witness": [
+    "1/200000",
+    "0",
+    "25812699875871/560000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s19.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.2963713,
+   "status": "invalid",
+   "r_bad": 5e-06,
+   "witness": [
+    "1/200000",
+    "0",
+    "25812699875871/560000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s19.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.9540975,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "0",
+    "-1/200",
+    "-48173329/420000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s19.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 1.1920915,
+   "status": "invalid",
+   "r_bad": 2.8117066259517456e-06,
+   "witness": [
+    "-105439/62500000000",
+    "449873/200000000000",
+    "617306300199959402403909604318171/84000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s20.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7197766,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "-1581139/100000000",
+    "0",
+    "12697712415441287414112306137/45000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s20.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.7683008,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "-2667419/50000000000",
+    "3556559/50000000000",
+    "103071552175625337155384157914547871/9375000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s20.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.622453,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "-2667419/50000000000",
+    "3556559/50000000000",
+    "103071552175625337155384157914547871/9375000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s20.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.9602414,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8891397/1000000000",
+    "0",
+    "-482624144428763052489665063209/350000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny1_s20.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 0.6445663,
+   "status": "invalid",
+   "r_bad": 8.891397050194615e-07,
+   "witness": [
+    "8891397/10000000000000",
+    "0",
+    "-4008718694444428763052489665063209/3500000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s01.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 3.7079348,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8410781/1000000000",
+    "180231/62500000",
+    "-89227796029476310612508824870645801/1230000000000000000000000000000000000000",
+    "557447495840853218564118945566693/15000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s01.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 3.6789432,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "-2667419/50000000000",
+    "-3556559/50000000000",
+    "6915125951934544932415573320024937009/7687500000000000000000000000000000000000000000",
+    "640662522019859485540706994742280263/93750000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s01.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 11.791997,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "-2667419/50000000000",
+    "-3556559/50000000000",
+    "6915125951934544932415573320024937009/7687500000000000000000000000000000000000000000",
+    "640662522019859485540706994742280263/93750000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s01.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.5261196,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-2489591/1000000000",
+    "8535741/1000000000",
+    "555717131631103016423100772728521/1230000000000000000000000000000000000000",
+    "5175211047996307741659371595721/7500000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s01.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 6.3275459,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s02.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.6588901,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1264911/100000000",
+    "-9486833/1000000000",
+    "-4059143195611728848482642105915969553/11118000000000000000000000000000000000000",
+    "-6150243952408299796613468876524499/109000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s02.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.5127974,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "449873/20000000000",
+    "105439/6250000000",
+    "-300682009088765463547193320425988546123/185300000000000000000000000000000000000000000000",
+    "-124879578266563948620567468099737629/681250000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s02.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 47.9198347,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "449873/20000000000",
+    "105439/6250000000",
+    "-300682009088765463547193320425988546123/185300000000000000000000000000000000000000000000",
+    "-124879578266563948620567468099737629/681250000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s02.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 6.6299449,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8891397/1000000000",
+    "0",
+    "4786216755784135973799919011501381/1853000000000000000000000000000000000000",
+    "-2036990849858867472406985568881/6812500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s02.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 19.6289237,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s03.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.3605673,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-8410781/1000000000",
+    "-180231/62500000",
+    "-59035886148583970692237228024445143/1495000000000000000000000000000000000000",
+    "-1192523115254783809933652062746113/13000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s03.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.814624,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "-1264911/100000000000",
+    "9486833/1000000000000",
+    "1061470211914016344789365730931852894438741/11960000000000000000000000000000000000000000000000000",
+    "-29867806067822626776904902127832715652077/104000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s03.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 16.7907107,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "-1264911/100000000000",
+    "9486833/1000000000000",
+    "1061470211914016344789365730931852894438741/11960000000000000000000000000000000000000000000000000",
+    "-29867806067822626776904902127832715652077/104000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s03.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 6.1094356,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "1/200",
+    "0",
+    "186370591/747500000000000",
+    "-11230711/65000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s03.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.5263947,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s04.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.4363545,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-8891397/1000000000",
+    "0",
+    "-14501027735518867576730997927565613/193937500000000000000000000000000000000",
+    "83195266598267672092531004810373/1160000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s04.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.8633067,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "449873/20000000000",
+    "105439/6250000000",
+    "-9209093546109565028017679453379536841/19393750000000000000000000000000000000000000000",
+    "2537736462254934601568980354700066317/2900000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s04.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 21.4419543,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "449873/20000000000",
+    "105439/6250000000",
+    "-9209093546109565028017679453379536841/19393750000000000000000000000000000000000000000",
+    "2537736462254934601568980354700066317/2900000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s04.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 6.2409404,
+   "status": "invalid",
+   "r_bad": 0.005,
+   "witness": [
+    "-1/200",
+    "0",
+    "7018128023/46545000000000000",
+    "6046213/43500000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s04.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.0067624,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s05.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.5152136,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "-1581139/100000000",
+    "0",
+    "43765929952116669692350661457043/120150000000000000000000000000000000",
+    "-1059156860936187384738352427451/2225000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s05.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.7764786,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "8891397/100000000000",
+    "0",
+    "50024904668192236193010981964621994569/4450000000000000000000000000000000000000000000",
+    "-33258441685070675049104696476841257691/2225000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s05.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 23.0786088,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "8891397/100000000000",
+    "0",
+    "50024904668192236193010981964621994569/4450000000000000000000000000000000000000000000",
+    "-33258441685070675049104696476841257691/2225000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s05.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.6605142,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "-1581139/100000000",
+    "0",
+    "602393362167057739225661457043/120150000000000000000000000000000000",
+    "-4853098554552658175852427451/2225000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s05.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.2066742,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s06.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.832249,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "3556559/500000000",
+    "2667419/500000000",
+    "-5809903186402891129884042460488407/42609375000000000000000000000000000000",
+    "103694747811863343991763629899827/3156250000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s06.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 13.9483711,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "9486833/1000000000000",
+    "1264911/100000000000",
+    "-3679715858448565224103603983257759878908563/10908000000000000000000000000000000000000000000000000",
+    "5472136428390570834785739370791249060991/25250000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s06.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 30.8766054,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "9486833/1000000000000",
+    "1264911/100000000000",
+    "-3679715858448565224103603983257759878908563/10908000000000000000000000000000000000000000000000000",
+    "5472136428390570834785739370791249060991/25250000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s06.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.9018347,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8891397/1000000000",
+    "0",
+    "-390478308392971762370007029428239/404000000000000000000000000000000000000",
+    "37850082496189421754988610359787/50500000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s06.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 10.277186,
+   "status": "invalid",
+   "r_bad": 5e-06,
+   "witness": [
+    "3/1000000",
+    "1/250000",
+    "738682974503/10908000000000000000000000000",
+    "1952630883/50500000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s07.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.1183702,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1581139/100000000",
+    "0",
+    "-296904468431379728952676697827823/662500000000000000000000000000000000",
+    "-4324539033845763398061027006417/12500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s07.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.5920729,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "449873/20000000000",
+    "-105439/6250000000",
+    "-1362740768854798593317857195791405524399/662500000000000000000000000000000000000000000000",
+    "-2643556291580095417496567340988234721/12500000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s07.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 23.3941481,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "449873/20000000000",
+    "-105439/6250000000",
+    "-1362740768854798593317857195791405524399/662500000000000000000000000000000000000000000000",
+    "-2643556291580095417496567340988234721/12500000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s07.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.4899012,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-8891397/1000000000",
+    "0",
+    "5447101651228276387642004594028657/6625000000000000000000000000000000000000",
+    "-82572612508891349238359909160497/125000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s07.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 10.7521998,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s08.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.885263,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-8891397/1000000000",
+    "0",
+    "26849635531247635627628888888246253/292000000000000000000000000000000000000",
+    "-10591925475337115614953128321737407/73000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s08.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.0557025,
+   "status": "invalid",
+   "r_bad": 5e-05,
+   "witness": [
+    "1/20000",
+    "0",
+    "51330712823699/17520000000000000000000",
+    "-33649160482831/7300000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s08.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 20.23849,
+   "status": "invalid",
+   "r_bad": 5e-05,
+   "witness": [
+    "1/20000",
+    "0",
+    "51330712823699/17520000000000000000000",
+    "-33649160482831/7300000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s08.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.9460799,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "3556559/500000000",
+    "2667419/500000000",
+    "13647656455484343136362381019831/22812500000000000000000000000000000000",
+    "41991011497164671359112918783/142578125000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s08.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 10.2392392,
+   "status": "invalid",
+   "r_bad": 8.891397050194615e-06,
+   "witness": [
+    "-3556559/500000000000",
+    "2667419/500000000000",
+    "-58508751414656638524343593640846859/136875000000000000000000000000000000000000000000000",
+    "-698701929063211100010094641916747/2281250000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s09.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 9.8989936,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "-9486833/1000000000",
+    "-1264911/100000000",
+    "-79950861034420562775620893531770463/546000000000000000000000000000000000000",
+    "-3425991504122593372340169565977319/9750000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s09.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 25.0442257,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "449873/20000000000",
+    "105439/6250000000",
+    "-141150209267415282592919072311111150249/327600000000000000000000000000000000000000000000",
+    "-5919869427155372780611177634210302243/5850000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s09.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 73.55148,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "449873/20000000000",
+    "105439/6250000000",
+    "-141150209267415282592919072311111150249/327600000000000000000000000000000000000000000000",
+    "-5919869427155372780611177634210302243/5850000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s09.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.3179335,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1264911/100000000",
+    "-9486833/1000000000",
+    "1950286496526358489430825749116869/819000000000000000000000000000000000000",
+    "59740738835833353671667483311509/117000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s09.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 10.918613,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s10.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 10.3936435,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "8891397/1000000000",
+    "0",
+    "66718254452302085633420904413017927/649000000000000000000000000000000000000",
+    "-14280118772178830994751662870119929/118000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s10.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.5352729,
+   "status": "invalid",
+   "r_bad": 5e-05,
+   "witness": [
+    "1/20000",
+    "0",
+    "1916623991494661/584100000000000000000000",
+    "-9034184738987/2360000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s10.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 22.8220814,
+   "status": "invalid",
+   "r_bad": 5e-05,
+   "witness": [
+    "1/20000",
+    "0",
+    "1916623991494661/584100000000000000000000",
+    "-9034184738987/2360000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s10.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.1368118,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "3556559/500000000",
+    "2667419/500000000",
+    "-253918576655134131779191688767511/365062500000000000000000000000000000000",
+    "233315460013647629949645778563/737500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s10.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 10.74101,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s11.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.7339338,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-3556559/500000000",
+    "-2667419/500000000",
+    "-1445729355954681701773615766791059/20125000000000000000000000000000000000",
+    "7072438466840268316457437362709/2875000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s11.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 6.5826,
+   "status": "invalid",
+   "r_bad": 0.00015811388300841897,
+   "witness": [
+    "9486833/100000000000",
+    "1264911/10000000000",
+    "-660656182890927381193847659651254051551/20930000000000000000000000000000000000000000000",
+    "10529849543586416972339958161425634863/1150000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s11.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 18.6225592,
+   "status": "invalid",
+   "r_bad": 0.00015811388300841897,
+   "witness": [
+    "9486833/100000000000",
+    "1264911/10000000000",
+    "-660656182890927381193847659651254051551/20930000000000000000000000000000000000000000000",
+    "10529849543586416972339958161425634863/1150000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s11.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.882339,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "2667419/500000000",
+    "3556559/500000000",
+    "13870998132744144727643184004753/261625000000000000000000000000000000000",
+    "-1128670938517969783451804256531/2875000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s11.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 10.4725873,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s12.json",
+   "name": "SOS",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 33.6802878,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s12.json",
+   "name": "frlib d",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 50.358234,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s12.json",
+   "name": "frlib dd",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 50.5461239,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s12.json",
+   "name": "jet",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 7.4948187,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s12.json",
+   "name": "Thm3",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 28.2173871,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s13.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.6242043,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1581139/100000000",
+    "0",
+    "-38669830581541220243425265988233/122000000000000000000000000000000000",
+    "1289347372791687461062990997861/4000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s13.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.9685047,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "2811707/100000000000",
+    "0",
+    "-123575969550190038446796841537705851113/122000000000000000000000000000000000000000000000",
+    "4101203203036669448420564357193610821/4000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s13.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 19.4595796,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "2811707/100000000000",
+    "0",
+    "-123575969550190038446796841537705851113/122000000000000000000000000000000000000000000000",
+    "4101203203036669448420564357193610821/4000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s13.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.4273712,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "3556559/500000000",
+    "2667419/500000000",
+    "-4589376105795984586549921816651/57187500000000000000000000000000000000",
+    "-259624359231530546938614276727/468750000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s13.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.2665501,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s14.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.8951401,
+   "status": "invalid",
+   "r_bad": 0.05,
+   "witness": [
+    "-3/100",
+    "1/25",
+    "-22329862741/7250000000000",
+    "26182740153/29000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s14.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.0784593,
+   "status": "invalid",
+   "r_bad": 0.0005,
+   "witness": [
+    "-3/10000",
+    "1/2500",
+    "-17917107909497/58000000000000000000",
+    "2582604579701/29000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s14.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 14.7855746,
+   "status": "invalid",
+   "r_bad": 0.0005,
+   "witness": [
+    "-3/10000",
+    "1/2500",
+    "-17917107909497/58000000000000000000",
+    "2582604579701/29000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s14.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.5084845,
+   "status": "invalid",
+   "r_bad": 0.028117066259517456,
+   "witness": [
+    "-105439/6250000",
+    "-449873/20000000",
+    "-325131253618365362795497311071/92800000000000000000000000000000000",
+    "-3948243637364353299831960169/580000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s14.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.9449796,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s15.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.7875558,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "-9486833/1000000000",
+    "1264911/100000000",
+    "748241577445422978094224563091720721/1938000000000000000000000000000000000000",
+    "-22692417284059847886514082430040973/102000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s15.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.8010416,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "-2667419/50000000000",
+    "3556559/50000000000",
+    "7427484887758714623479531860273292779/605625000000000000000000000000000000000000000",
+    "-2245948131903571098416656440166643171/318750000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s15.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 17.6146599,
+   "status": "invalid",
+   "r_bad": 8.891397050194613e-05,
+   "witness": [
+    "-2667419/50000000000",
+    "3556559/50000000000",
+    "7427484887758714623479531860273292779/605625000000000000000000000000000000000000000",
+    "-2245948131903571098416656440166643171/318750000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s15.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.1223415,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "-9486833/1000000000",
+    "1264911/100000000",
+    "-3125615010892565530775436908279279/1938000000000000000000000000000000000000",
+    "-4605806901589199014082430040973/102000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s15.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 9.6570061,
+   "status": "invalid",
+   "r_bad": 5e-06,
+   "witness": [
+    "1/200000",
+    "0",
+    "-8460418241/77520000000000000000000000",
+    "-506337811/20400000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s16.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.6308458,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "-1581139/100000000",
+    "0",
+    "-120554256430971301370314832185031/365200000000000000000000000000000000",
+    "-1527097605750653513950129568271/4400000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s16.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 6.193489,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "2811707/100000000000",
+    "0",
+    "-383443428485223357645169970383329689191/365200000000000000000000000000000000000000000000",
+    "-4891611081129769781001785479666758831/4400000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s16.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 16.1809491,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "2811707/100000000000",
+    "0",
+    "-383443428485223357645169970383329689191/365200000000000000000000000000000000000000000000",
+    "-4891611081129769781001785479666758831/4400000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s16.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.6972225,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-8891397/1000000000",
+    "0",
+    "1656057335937447873474897504805529/3652000000000000000000000000000000000000",
+    "42735439604375108355383447364689/44000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s16.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.4609319,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s17.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.6256566,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "-1581139/100000000",
+    "0",
+    "-8928158501839736318746719858467/36900000000000000000000000000000000",
+    "-226145498969053480288713857041/600000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s17.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.742253,
+   "status": "invalid",
+   "r_bad": 5e-05,
+   "witness": [
+    "-1/20000",
+    "0",
+    "-22341904187117/9225000000000000000000",
+    "-459396664493/120000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s17.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 12.6330347,
+   "status": "invalid",
+   "r_bad": 5e-05,
+   "witness": [
+    "-1/20000",
+    "0",
+    "-22341904187117/9225000000000000000000",
+    "-459396664493/120000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s17.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.0965004,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "-8891397/1000000000",
+    "0",
+    "-28036136622426080317634354178283/41000000000000000000000000000000000000",
+    "2702916666713710842531004810373/2000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s17.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 7.6338967,
+   "status": "invalid",
+   "r_bad": 2.8117066259517456e-06,
+   "witness": [
+    "1329861/500000000000",
+    "9119049/10000000000000",
+    "-4215456102783034205840551927997317039/574000000000000000000000000000000000000000000000000000",
+    "-2842717502067535974474520324873304789/140000000000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s18.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 4.6902688,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1581139/100000000",
+    "0",
+    "66142292985962108757621406171479/307100000000000000000000000000000000",
+    "-1822235549473578521151575286631/8300000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s18.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.7618999,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "697561/50000000000",
+    "-7440653/1000000000000",
+    "2005770690389371509877976172107292766117/23992187500000000000000000000000000000000000000000",
+    "-1786269965946152302980072574342403415409/16600000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s18.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 13.931133,
+   "status": "invalid",
+   "r_bad": 1.5811388300841898e-05,
+   "witness": [
+    "697561/50000000000",
+    "-7440653/1000000000000",
+    "2005770690389371509877976172107292766117/23992187500000000000000000000000000000000000000000",
+    "-1786269965946152302980072574342403415409/16600000000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s18.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 3.9531519,
+   "status": "invalid",
+   "r_bad": 0.015811388300841896,
+   "witness": [
+    "1264911/100000000",
+    "-9486833/1000000000",
+    "-1750005693496308374476755557480887/1535500000000000000000000000000000000000",
+    "48562538558320944756823948301373/16600000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s18.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 8.5575514,
+   "status": "no violation found"
+  },
+  {
+   "instance": "cp_ny2_s19.json",
+   "name": "SOS",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 10.2456153,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s19.json",
+   "name": "frlib d",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 4.5478053,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s19.json",
+   "name": "frlib dd",
+   "class": "unstable",
+   "ok": false,
+   "problem": 2,
+   "time": 13.190171,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s19.json",
+   "name": "jet",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 10.4079737,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s19.json",
+   "name": "Thm3",
+   "class": "unstable",
+   "ok": false,
+   "problem": 4,
+   "time": 19.3168461,
+   "status": "solver failure"
+  },
+  {
+   "instance": "cp_ny2_s20.json",
+   "name": "SOS",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 5.4070381,
+   "status": "invalid",
+   "r_bad": 0.028117066259517456,
+   "witness": [
+    "105439/6250000",
+    "449873/20000000",
+    "-383600288816378858359246898584699/341600000000000000000000000000000000",
+    "-6218476975481475298792994237221/6100000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s20.json",
+   "name": "frlib d",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 2.9830365,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "105439/6250000000",
+    "449873/20000000000",
+    "-384665126929959090470974609246898584699/341600000000000000000000000000000000000000000000",
+    "-6257206720523061681363267542994237221/6100000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s20.json",
+   "name": "frlib dd",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 13.2644092,
+   "status": "invalid",
+   "r_bad": 2.8117066259517454e-05,
+   "witness": [
+    "105439/6250000000",
+    "449873/20000000000",
+    "-384665126929959090470974609246898584699/341600000000000000000000000000000000000000000000",
+    "-6257206720523061681363267542994237221/6100000000000000000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s20.json",
+   "name": "jet",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 3.91319,
+   "status": "invalid",
+   "r_bad": 0.008891397050194615,
+   "witness": [
+    "3556559/500000000",
+    "2667419/500000000",
+    "-29189793509448812573184171322489/106750000000000000000000000000000000000",
+    "-2797823688722054127595304398671/3812500000000000000000000000000000000"
+   ]
+  },
+  {
+   "instance": "cp_ny2_s20.json",
+   "name": "Thm3",
+   "class": "stable",
+   "ok": true,
+   "problem": 0,
+   "time": 6.3739567,
+   "status": "no violation found"
+  }
+ ]
+}

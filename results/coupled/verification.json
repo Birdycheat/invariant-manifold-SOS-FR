@@ -1,0 +1,512 @@
+[
+ {
+  "file": "cp_ny1_s01.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s02.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s03.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s04.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s05.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s08.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s09.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s10.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s11.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s12.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s13.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s16.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s17.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s18.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s19.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny1_s20.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s01.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s02.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s03.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s04.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s05.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s06.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s07.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s08.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s09.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s10.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s11.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s13.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s14.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s15.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s16.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s17.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s18.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ },
+ {
+  "file": "cp_ny2_s20.cert.json.gz",
+  "ok": true,
+  "checks": {
+   "enclosures": true,
+   "fields": true,
+   "coordinates": true,
+   "W_recorded": true,
+   "four_vertices": true,
+   "identities": true,
+   "positive_definite": true,
+   "eta_positive": true,
+   "pure_powers": true
+  }
+ }
+]

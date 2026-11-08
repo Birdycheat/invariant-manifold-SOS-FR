@@ -1,0 +1,14 @@
+*.asv
+*.m~
+slprj/
+*.slxc
+manuscript/
+manuscript_ecc/
+*.pdf
+*.tex
+*.bib
+*.sty
+*.cls
+*.zip
+*.py
+__pycache__/

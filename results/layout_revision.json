@@ -1,0 +1,578 @@
+{
+  "status": "passed",
+  "revision_date": "2026-11-07",
+  "change": "Group authored MATLAB sources by benchmark, with shared, theory and reporting folders.",
+  "relevance_audit": {
+    "authored_sources": 54,
+    "authored_sources_all_reachable": true,
+    "unused_authored_sources": 0,
+    "third_party_sources": 13,
+    "immutable_historical_producer_records": 1
+  },
+  "baseline_archive": "invariant-manifold-SOS-FR_matlab_commented_2026-11-07.zip",
+  "baseline_archive_sha256": "ba1ab05aa301298e699b78616e1c584b47da9762932851dff59bf14516a6acb1",
+  "previous_manifest_sha256": "6d6e3255075ebadfcca7e88ad01c28364ece6c33c7f01fb48b946c64dc53d84a",
+  "groups": {
+    "benchmarks/scalar": [
+      "classify_candidate",
+      "cm_verify_exact",
+      "exact_data",
+      "exact_jet",
+      "gen_cm_cert",
+      "gen_instance",
+      "gen_instance_exact",
+      "gen_sos_cert",
+      "gen_sos_cert_z",
+      "jet_sos_center",
+      "jp_cert",
+      "run_batch_exact",
+      "run_jet_exact",
+      "run_scalar_regions",
+      "cm_verify_anchors",
+      "cm_verify_defects",
+      "cm_quadratic_obstruction"
+    ],
+    "benchmarks/scalar/controls": [
+      "make_fig_data",
+      "run_example1",
+      "review_dd_scaling",
+      "cm_dd_evidence"
+    ],
+    "benchmarks/coupled": [
+      "coupled_sos",
+      "run_coupled_batch",
+      "write_center"
+    ],
+    "benchmarks/triple": [
+      "run_triple_batch"
+    ],
+    "benchmarks/beg": [
+      "run_beg_batch",
+      "cm_beg_bounds",
+      "cm_symbolic_beg"
+    ],
+    "code/shared": [
+      "cm_storage_guard",
+      "cm_environment",
+      "cm_manifest_check",
+      "cm_output_directory",
+      "cm_sha256",
+      "cm_count_roots",
+      "cm_exact",
+      "cm_exact_flat",
+      "cm_exact_pd",
+      "cm_gram_matrix",
+      "cm_json_rows",
+      "cm_model",
+      "cm_poly",
+      "cm_read_json",
+      "cm_verify_certificates",
+      "cm_verify_witnesses",
+      "cm_round_certificates",
+      "cm_solve_benchmark"
+    ],
+    "code/theory": [
+      "cm_symbolic_checks",
+      "cm_symbolic_jets",
+      "cm_symbolic_layers",
+      "cm_symbolic_formal",
+      "cm_verify_system_classes"
+    ],
+    "code/reporting": [
+      "cm_tables",
+      "cm_readme_figures"
+    ]
+  },
+  "source_moves": [
+    {
+      "old_path": "benchmarks/classify_candidate.m",
+      "new_path": "benchmarks/scalar/classify_candidate.m",
+      "before_sha256": "596a06501279e1bc3036f3864e4b78d85ce069f5cab1b93e216af9606784c1f2",
+      "after_sha256": "596a06501279e1bc3036f3864e4b78d85ce069f5cab1b93e216af9606784c1f2",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/cm_verify_exact.m",
+      "new_path": "benchmarks/scalar/cm_verify_exact.m",
+      "before_sha256": "1221b50faf904e3b6cfb3be98533d7dc785fba6d948e19711180ac5fb0dd4114",
+      "after_sha256": "1221b50faf904e3b6cfb3be98533d7dc785fba6d948e19711180ac5fb0dd4114",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/exact_data.m",
+      "new_path": "benchmarks/scalar/exact_data.m",
+      "before_sha256": "a346015bf2e1bc03f7a94ebdd0015dfb33d834a74e60c4c2f8681fb2a0fa9d8b",
+      "after_sha256": "a346015bf2e1bc03f7a94ebdd0015dfb33d834a74e60c4c2f8681fb2a0fa9d8b",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/exact_jet.m",
+      "new_path": "benchmarks/scalar/exact_jet.m",
+      "before_sha256": "20210444f3d0b2ffb5bf1ffae49381fc021240eb0f3eff9d99a61a83b5e279e0",
+      "after_sha256": "20210444f3d0b2ffb5bf1ffae49381fc021240eb0f3eff9d99a61a83b5e279e0",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/gen_cm_cert.m",
+      "new_path": "benchmarks/scalar/gen_cm_cert.m",
+      "before_sha256": "bd3b2ce9df56fbef6d02e8c19aab519d414d05589cc3cd9407764c45450bac28",
+      "after_sha256": "bd3b2ce9df56fbef6d02e8c19aab519d414d05589cc3cd9407764c45450bac28",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/gen_instance.m",
+      "new_path": "benchmarks/scalar/gen_instance.m",
+      "before_sha256": "e0096dfce4d2ad70aaa5472773422777fd99ce4606f43a9771cc24ec485e7bd1",
+      "after_sha256": "e0096dfce4d2ad70aaa5472773422777fd99ce4606f43a9771cc24ec485e7bd1",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/gen_instance_exact.m",
+      "new_path": "benchmarks/scalar/gen_instance_exact.m",
+      "before_sha256": "ce93df47d1bcd7456a3c16f15f0c92bb4a90b349c0da0bf9d2fde9de5826535a",
+      "after_sha256": "ce93df47d1bcd7456a3c16f15f0c92bb4a90b349c0da0bf9d2fde9de5826535a",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/gen_sos_cert.m",
+      "new_path": "benchmarks/scalar/gen_sos_cert.m",
+      "before_sha256": "42a6b25c654a23704cf7d98d4290904be34efe3d8085bfba1170ef056233ee59",
+      "after_sha256": "42a6b25c654a23704cf7d98d4290904be34efe3d8085bfba1170ef056233ee59",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/gen_sos_cert_z.m",
+      "new_path": "benchmarks/scalar/gen_sos_cert_z.m",
+      "before_sha256": "f1b3b035d42b02bd9356ac7102cc2c4d5c00eae65f5a953da2d49e2d2945195e",
+      "after_sha256": "f1b3b035d42b02bd9356ac7102cc2c4d5c00eae65f5a953da2d49e2d2945195e",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/jet_sos_center.m",
+      "new_path": "benchmarks/scalar/jet_sos_center.m",
+      "before_sha256": "0a20606067a2a3ee5e4cf1a2e46c84e7995a536b0ce4d09777785d13511e237d",
+      "after_sha256": "0a20606067a2a3ee5e4cf1a2e46c84e7995a536b0ce4d09777785d13511e237d",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/jp_cert.m",
+      "new_path": "benchmarks/scalar/jp_cert.m",
+      "before_sha256": "628fadd411cb2f624c984a6d69cdb788fd28466b519f2d144116e0a8c07055f6",
+      "after_sha256": "628fadd411cb2f624c984a6d69cdb788fd28466b519f2d144116e0a8c07055f6",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/run_batch_exact.m",
+      "new_path": "benchmarks/scalar/run_batch_exact.m",
+      "before_sha256": "2b2bb3194d1285c1feadf4c965a2b5d90b3268c92ca1049a2a9ac0c36ad03163",
+      "after_sha256": "2b2bb3194d1285c1feadf4c965a2b5d90b3268c92ca1049a2a9ac0c36ad03163",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/run_jet_exact.m",
+      "new_path": "benchmarks/scalar/run_jet_exact.m",
+      "before_sha256": "1bb172feb07b10aa1b82654f983dd84a5875e8b412d0114459bc075c17a34ecb",
+      "after_sha256": "1bb172feb07b10aa1b82654f983dd84a5875e8b412d0114459bc075c17a34ecb",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/run_scalar_regions.m",
+      "new_path": "benchmarks/scalar/run_scalar_regions.m",
+      "before_sha256": "d32ee9810a5a83b8b13a31f5254e2f159a3e318f298bb5f576c19e7e4666a06b",
+      "after_sha256": "d32ee9810a5a83b8b13a31f5254e2f159a3e318f298bb5f576c19e7e4666a06b",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_verify_anchors.m",
+      "new_path": "benchmarks/scalar/cm_verify_anchors.m",
+      "before_sha256": "4a13a5b4f97db7d3eaff2f4437f6f523a0fb3888e3df2f539d32a4e231669d5d",
+      "after_sha256": "4a13a5b4f97db7d3eaff2f4437f6f523a0fb3888e3df2f539d32a4e231669d5d",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_verify_defects.m",
+      "new_path": "benchmarks/scalar/cm_verify_defects.m",
+      "before_sha256": "7f9e90c46feb355a116f0e75389fe48e65606ac17c28cc770040d9185251b7e1",
+      "after_sha256": "7f9e90c46feb355a116f0e75389fe48e65606ac17c28cc770040d9185251b7e1",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_quadratic_obstruction.m",
+      "new_path": "benchmarks/scalar/cm_quadratic_obstruction.m",
+      "before_sha256": "ff705169d62481923601dbb92ef79522311bbd6acf253ab055669f94f2e87cea",
+      "after_sha256": "ff705169d62481923601dbb92ef79522311bbd6acf253ab055669f94f2e87cea",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/make_fig_data.m",
+      "new_path": "benchmarks/scalar/controls/make_fig_data.m",
+      "before_sha256": "3191635bc1ae21410d8ace703905e71226893b99aa559c422b7079da68d66ea4",
+      "after_sha256": "3191635bc1ae21410d8ace703905e71226893b99aa559c422b7079da68d66ea4",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/run_example1.m",
+      "new_path": "benchmarks/scalar/controls/run_example1.m",
+      "before_sha256": "fa3d7d9d9838b8b0b68a3f08bb589ddd5fbd104281858d55a64e555846aa026e",
+      "after_sha256": "fa3d7d9d9838b8b0b68a3f08bb589ddd5fbd104281858d55a64e555846aa026e",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/review_dd_scaling.m",
+      "new_path": "benchmarks/scalar/controls/review_dd_scaling.m",
+      "before_sha256": "cd204cef3866c60664278044ff462ee0bdbb68a2229c27eca43e49bfad9ef54a",
+      "after_sha256": "cd204cef3866c60664278044ff462ee0bdbb68a2229c27eca43e49bfad9ef54a",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_dd_evidence.m",
+      "new_path": "benchmarks/scalar/controls/cm_dd_evidence.m",
+      "before_sha256": "bdac6398fe10d8440c16e00c3b6bc14b177f09d297839a560d9ccf611a66e689",
+      "after_sha256": "bdac6398fe10d8440c16e00c3b6bc14b177f09d297839a560d9ccf611a66e689",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/coupled_sos.m",
+      "new_path": "benchmarks/coupled/coupled_sos.m",
+      "before_sha256": "ce14725fbd9e382963ca7cf8b10d7cb5620fa0638e4c51b5a1b7f03c56b43c29",
+      "after_sha256": "ce14725fbd9e382963ca7cf8b10d7cb5620fa0638e4c51b5a1b7f03c56b43c29",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/run_coupled_batch.m",
+      "new_path": "benchmarks/coupled/run_coupled_batch.m",
+      "before_sha256": "a4e2e3acad263ba728ffea18706b35aac954d80e76e61b05101bd62c68288420",
+      "after_sha256": "a4e2e3acad263ba728ffea18706b35aac954d80e76e61b05101bd62c68288420",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/write_center.m",
+      "new_path": "benchmarks/coupled/write_center.m",
+      "before_sha256": "296283b9668562c6cf06db9b25f57594d19051b852fc39adeab5caee8179983a",
+      "after_sha256": "296283b9668562c6cf06db9b25f57594d19051b852fc39adeab5caee8179983a",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/run_triple_batch.m",
+      "new_path": "benchmarks/triple/run_triple_batch.m",
+      "before_sha256": "4aebdd755d03b415b0e0a3111a982b596d0e9c77c7014135dfb77cd8a3bfd054",
+      "after_sha256": "4aebdd755d03b415b0e0a3111a982b596d0e9c77c7014135dfb77cd8a3bfd054",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/run_beg_batch.m",
+      "new_path": "benchmarks/beg/run_beg_batch.m",
+      "before_sha256": "c597757a65b4ded3062f46395228827a4a9bcf6af4553e70f4639a478d1e3309",
+      "after_sha256": "c597757a65b4ded3062f46395228827a4a9bcf6af4553e70f4639a478d1e3309",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_beg_bounds.m",
+      "new_path": "benchmarks/beg/cm_beg_bounds.m",
+      "before_sha256": "544be9aea6efa9600befbacbb23f7f61ce932bf6126d51b10978ab1edfa407e2",
+      "after_sha256": "544be9aea6efa9600befbacbb23f7f61ce932bf6126d51b10978ab1edfa407e2",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_symbolic_beg.m",
+      "new_path": "benchmarks/beg/cm_symbolic_beg.m",
+      "before_sha256": "d493201b8091d277632721a52a5b35f2162a61388738541a57365454bc9a2692",
+      "after_sha256": "d493201b8091d277632721a52a5b35f2162a61388738541a57365454bc9a2692",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "benchmarks/cm_storage_guard.m",
+      "new_path": "code/shared/cm_storage_guard.m",
+      "before_sha256": "2bd9a20eb05658acb088af315ec1c1ccc8c635dd94ef00665c64bc4c4d4198f1",
+      "after_sha256": "2bd9a20eb05658acb088af315ec1c1ccc8c635dd94ef00665c64bc4c4d4198f1",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_environment.m",
+      "new_path": "code/shared/cm_environment.m",
+      "before_sha256": "d04e29526a82f3df82b6a3399ff108fbc65d71e17031cb5785f24161dbd57a39",
+      "after_sha256": "d04e29526a82f3df82b6a3399ff108fbc65d71e17031cb5785f24161dbd57a39",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_manifest_check.m",
+      "new_path": "code/shared/cm_manifest_check.m",
+      "before_sha256": "e9038a08e4677a0c7b8330e8b2808485eabc72dcb41e84aa2457bdf10b08ed20",
+      "after_sha256": "e9038a08e4677a0c7b8330e8b2808485eabc72dcb41e84aa2457bdf10b08ed20",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_output_directory.m",
+      "new_path": "code/shared/cm_output_directory.m",
+      "before_sha256": "d7ed4409f30fac374104b4536c936813a1e344bd49581fa6bd533002487a32e5",
+      "after_sha256": "d7ed4409f30fac374104b4536c936813a1e344bd49581fa6bd533002487a32e5",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_sha256.m",
+      "new_path": "code/shared/cm_sha256.m",
+      "before_sha256": "2659692e55d8e628b5144e20a55719770be706cb14228909c52aca7a75ac1ea4",
+      "after_sha256": "2659692e55d8e628b5144e20a55719770be706cb14228909c52aca7a75ac1ea4",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_count_roots.m",
+      "new_path": "code/shared/cm_count_roots.m",
+      "before_sha256": "f07b6491c2ace4cbd612e2792048b3fd3f886995cb9bf76be7ca05677c75ea49",
+      "after_sha256": "f07b6491c2ace4cbd612e2792048b3fd3f886995cb9bf76be7ca05677c75ea49",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_exact.m",
+      "new_path": "code/shared/cm_exact.m",
+      "before_sha256": "b49fd7a6d432b3d20c043eaf9e310fc41872965fbe4e4dffa67d547fc9a9c4ba",
+      "after_sha256": "b49fd7a6d432b3d20c043eaf9e310fc41872965fbe4e4dffa67d547fc9a9c4ba",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_exact_flat.m",
+      "new_path": "code/shared/cm_exact_flat.m",
+      "before_sha256": "3e06a1c9be834068324eee8f3693caf925faafb34e81ad3c7fc064ccc7b24fac",
+      "after_sha256": "3e06a1c9be834068324eee8f3693caf925faafb34e81ad3c7fc064ccc7b24fac",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_exact_pd.m",
+      "new_path": "code/shared/cm_exact_pd.m",
+      "before_sha256": "f5e9364120c24424c857ff7b97a7d257e10e8c23cf8a81b4a32b109b4a89f847",
+      "after_sha256": "f5e9364120c24424c857ff7b97a7d257e10e8c23cf8a81b4a32b109b4a89f847",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_gram_matrix.m",
+      "new_path": "code/shared/cm_gram_matrix.m",
+      "before_sha256": "ca13793e0638491c3026dc7040eae1bea8ff9d2cfaf1f79cbd4ef819723ca9ad",
+      "after_sha256": "ca13793e0638491c3026dc7040eae1bea8ff9d2cfaf1f79cbd4ef819723ca9ad",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_json_rows.m",
+      "new_path": "code/shared/cm_json_rows.m",
+      "before_sha256": "782996c7929fbb4e867263191761b394966cd01c9f16524e3a9e2f9dadb0b954",
+      "after_sha256": "782996c7929fbb4e867263191761b394966cd01c9f16524e3a9e2f9dadb0b954",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_model.m",
+      "new_path": "code/shared/cm_model.m",
+      "before_sha256": "f1ae1e2daf5da2306734b93ae1198f8dae9dd37772632f40475e7d5d57de9bdb",
+      "after_sha256": "f1ae1e2daf5da2306734b93ae1198f8dae9dd37772632f40475e7d5d57de9bdb",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_poly.m",
+      "new_path": "code/shared/cm_poly.m",
+      "before_sha256": "798182bc8622a90526e4dce50460a59a1b0e6ac617a56d2281de4eefdc670310",
+      "after_sha256": "798182bc8622a90526e4dce50460a59a1b0e6ac617a56d2281de4eefdc670310",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_read_json.m",
+      "new_path": "code/shared/cm_read_json.m",
+      "before_sha256": "bd3ea730c26dda9d755f1799309c49c40f39c8bbfbb0889b2e4d0c69eb88ba71",
+      "after_sha256": "bd3ea730c26dda9d755f1799309c49c40f39c8bbfbb0889b2e4d0c69eb88ba71",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_verify_certificates.m",
+      "new_path": "code/shared/cm_verify_certificates.m",
+      "before_sha256": "260cb8cc02fcc7e983e0b078f3f9964af3d33fec77d7c8b2c9fde81273d895c8",
+      "after_sha256": "260cb8cc02fcc7e983e0b078f3f9964af3d33fec77d7c8b2c9fde81273d895c8",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_verify_witnesses.m",
+      "new_path": "code/shared/cm_verify_witnesses.m",
+      "before_sha256": "eb6668c039f97d6ddd9d867feb02edc73a4e1cabd50a5e2fe9fc1bf9f9377992",
+      "after_sha256": "eb6668c039f97d6ddd9d867feb02edc73a4e1cabd50a5e2fe9fc1bf9f9377992",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_round_certificates.m",
+      "new_path": "code/shared/cm_round_certificates.m",
+      "before_sha256": "ab51962034c30a45d9031556d9f3f30f2e669eb292ae6059d500587deb5a759a",
+      "after_sha256": "ab51962034c30a45d9031556d9f3f30f2e669eb292ae6059d500587deb5a759a",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_solve_benchmark.m",
+      "new_path": "code/shared/cm_solve_benchmark.m",
+      "before_sha256": "69352c3906b8c0fbffe7761f675e9a2986d876a434215b3418064d13cfa75adc",
+      "after_sha256": "3253c06e7149692b42cec3c160c9e7e0c9283d6dac71f1327d742edcfde2ffc5",
+      "byte_identical": false,
+      "role": "source loading and external-workspace staging"
+    },
+    {
+      "old_path": "code/cm_symbolic_checks.m",
+      "new_path": "code/theory/cm_symbolic_checks.m",
+      "before_sha256": "0ede4bd0e60fadb08d32f1a8ba9c33acafaa58276c63d5a6e2540c8ac97fb918",
+      "after_sha256": "0ede4bd0e60fadb08d32f1a8ba9c33acafaa58276c63d5a6e2540c8ac97fb918",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_symbolic_jets.m",
+      "new_path": "code/theory/cm_symbolic_jets.m",
+      "before_sha256": "4433ced67c6ffc0afc4c654e5ac270b13eaf60deab2c26eb31bb2540dd09ebe0",
+      "after_sha256": "4433ced67c6ffc0afc4c654e5ac270b13eaf60deab2c26eb31bb2540dd09ebe0",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_symbolic_layers.m",
+      "new_path": "code/theory/cm_symbolic_layers.m",
+      "before_sha256": "5ae22b7b194772ab99fea8e5793adfd5e82d4fdd82e9e9390780c2bcebbd2296",
+      "after_sha256": "5ae22b7b194772ab99fea8e5793adfd5e82d4fdd82e9e9390780c2bcebbd2296",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_symbolic_formal.m",
+      "new_path": "code/theory/cm_symbolic_formal.m",
+      "before_sha256": "76158033d3bd70958aba20195e3322d3de3044571816852680db04a7a84b668b",
+      "after_sha256": "76158033d3bd70958aba20195e3322d3de3044571816852680db04a7a84b668b",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_verify_system_classes.m",
+      "new_path": "code/theory/cm_verify_system_classes.m",
+      "before_sha256": "d5855afab9d8f49e1abdb20d5c9d586a1c83939b765027653dbb950984914de8",
+      "after_sha256": "d5855afab9d8f49e1abdb20d5c9d586a1c83939b765027653dbb950984914de8",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_tables.m",
+      "new_path": "code/reporting/cm_tables.m",
+      "before_sha256": "b04e154ff172d5c1053d512edc847e4085ee89a7ecebdc671733aaef3145c290",
+      "after_sha256": "b04e154ff172d5c1053d512edc847e4085ee89a7ecebdc671733aaef3145c290",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "code/cm_readme_figures.m",
+      "new_path": "code/reporting/cm_readme_figures.m",
+      "before_sha256": "fcd66603c16b6a5c8b591a2fa676532925a58cc67f79d5aebb8d6097e9ebf2b5",
+      "after_sha256": "fcd66603c16b6a5c8b591a2fa676532925a58cc67f79d5aebb8d6097e9ebf2b5",
+      "byte_identical": true,
+      "role": "unchanged routine"
+    },
+    {
+      "old_path": "run_reproduction.m",
+      "new_path": "run_reproduction.m",
+      "before_sha256": "61fccca429625650e89ee92781734af6fcdebbafd6bfec41105bf7c6d824e024",
+      "after_sha256": "8798c072c0a52d8cdea7399e0c62aa304047e315a67f3cdc26bff68b5e153a90",
+      "byte_identical": false,
+      "role": "recursive source-path loading"
+    }
+  ],
+  "mathematical_routines_byte_unchanged": 52,
+  "source_loading_routines_adapted": 2,
+  "public_commands_unchanged": true,
+  "validation": {
+    "resolved_authored_sources": 54,
+    "quick_status": "passed",
+    "quick_seconds": 103.7568639,
+    "numerical_smokes": [
+      {
+        "benchmark": "scalar",
+        "instance": "",
+        "status": "completed",
+        "seconds": 24.6188245,
+        "exact_certificates": 1,
+        "staged_MATLAB_sources": 53,
+        "staged_bytes_identical": true,
+        "reference_unchanged": true
+      },
+      {
+        "benchmark": "coupled",
+        "instance": "cp_ny1_s01.json",
+        "status": "completed",
+        "seconds": 58.6155247,
+        "exact_certificates": 1,
+        "staged_MATLAB_sources": 53,
+        "staged_bytes_identical": true,
+        "reference_unchanged": true
+      },
+      {
+        "benchmark": "triple",
+        "instance": "tr_ny1_s01.json",
+        "status": "completed",
+        "seconds": 113.5837275,
+        "exact_certificates": 1,
+        "staged_MATLAB_sources": 53,
+        "staged_bytes_identical": true,
+        "reference_unchanged": true
+      },
+      {
+        "benchmark": "beg",
+        "instance": "a_2_1.json",
+        "status": "completed",
+        "seconds": 38.7272687,
+        "exact_certificates": 4,
+        "staged_MATLAB_sources": 53,
+        "staged_bytes_identical": true,
+        "reference_unchanged": true
+      }
+    ]
+  },
+  "preserved": {
+    "reference_data": "Byte-identical; paths and existing traceability indices preserved.",
+    "third_party": "Unmodified vendor runtime and licenses.",
+    "historical_reports": "Unmodified; use source_moves to map their former code paths.",
+    "archives": "Prior sealed ZIPs preserved."
+  },
+  "scientific_validation_scope": "One new numerical instance per family and native exact reconstruction, plus quick symbolic/certificate/table checks. Existing comprehensive exact validation remains applicable to the 52 byte-identical routines; the full historical numerical campaigns were not repeated.",
+  "remote_publication": false
+}

@@ -1,0 +1,7 @@
+Instance N1_m5_s01
+unscaled_dd: problem=0, invalide, 1.28s, reduced=[5 14 10]
+jet_row_scaled_dd: problem=0, invalide, 0.21s, reduced=[5 14 10]
+Instance N1_m7_s01
+unscaled_dd: problem=0, invalide, 0.17s, reduced=[5 20 15]
+jet_row_scaled_dd: problem=0, invalide, 0.17s, reduced=[5 20 15]
+Report: C:/Users/angouf/OneDrive - polymtl/central_manifold_2027/results/generalisation/dd_scaling_review.json

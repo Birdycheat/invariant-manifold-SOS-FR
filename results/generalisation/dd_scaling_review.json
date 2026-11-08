@@ -1,0 +1,304 @@
+{
+  "experiment": "FR dd with diagonal scaling, fixed polynomial spaces",
+  "status": "completed",
+  "raw_directory": "C:/Users/angouf/AppData/Local/Temp/ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728",
+  "matlab": "25.2.0.3150157 (R2025b) Update 4",
+  "candidate_coordinates": "original x,y",
+  "candidate_degree": 4,
+  "margin_weight": "1/1000",
+  "normalization": "none, as in gen_sos_cert",
+  "scaling_rule": "s_i=1/max_d |C(i,d)| if nonzero, otherwise 1",
+  "scope": "Two representative scalar instances; not an aggregate benchmark.",
+  "instances": [
+    {
+      "name": "N1_m5_s01",
+      "r": 0.4716796875,
+      "D": 4,
+      "m": 5,
+      "q": 2,
+      "basis_extraction_problem": 0,
+      "basis_extraction_info": "Successfully solved (MOSEK-SDP)",
+      "gram_sizes": [
+        5,
+        14,
+        10
+      ],
+      "candidate_monomials": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "runs": [
+        {
+          "variant": "unscaled_dd",
+          "solver_problem": 0,
+          "solver_info": "Successfully solved (frlib -> MOSEK)",
+          "wall_seconds": 1.2808684,
+          "solver_seconds": 0.0989856,
+          "reduced_gram_sizes": [
+            5,
+            14,
+            10
+          ],
+          "coefficient_residual": 1.1745467968797247e-08,
+          "classification": "invalide",
+          "r_bad": 0.024039057609019115,
+          "candidate_coefficients": [
+            1.740764527645055,
+            0.0009121917202785793,
+            0.16735067835035392,
+            -0.18659147120633282,
+            -0.2975696500574181,
+            -0.026828903951218133,
+            -0.025041041021036138,
+            0.27073573173297555,
+            -0.09861500339681757,
+            0.37105435415556165,
+            0.04677260097741348,
+            0.14921719648315893
+          ],
+          "kernel_residual": [
+            0.0026257498483143464,
+            0.00583234626647711
+          ],
+          "raw_file": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\N1_m5_s01_unscaled_dd.json",
+          "witness": {
+            "x": -0.024039057609019115,
+            "Y": -0.0011001212041796857
+          }
+        },
+        {
+          "variant": "jet_row_scaled_dd",
+          "solver_problem": 0,
+          "solver_info": "Successfully solved (frlib -> MOSEK)",
+          "wall_seconds": 0.2088126,
+          "solver_seconds": 0.0100364,
+          "reduced_gram_sizes": [
+            5,
+            14,
+            10
+          ],
+          "coefficient_residual": 5.420492584457236e-09,
+          "classification": "invalide",
+          "r_bad": 0.02037507047452016,
+          "candidate_coefficients": [
+            1.6827417058095218,
+            0.0005053587480481976,
+            0.10461120279463976,
+            -0.2372380861918401,
+            -0.5106146546400903,
+            -0.017559241761893652,
+            -0.023823262515974986,
+            0.23881676005929872,
+            -0.05652140075362051,
+            0.3978949884046677,
+            0.03968684108443981,
+            0.14603545744459817
+          ],
+          "kernel_residual": [
+            0.002270488781483508,
+            0.006575617097841519
+          ],
+          "raw_file": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\N1_m5_s01_jet_row_scaled_dd.json",
+          "witness": {
+            "x": -0.02037507047452016,
+            "Y": -0.0007894542912324483
+          }
+        }
+      ],
+      "error": ""
+    },
+    {
+      "name": "N1_m7_s01",
+      "r": 0.4775390625,
+      "D": 4,
+      "m": 7,
+      "q": 3,
+      "basis_extraction_problem": 0,
+      "basis_extraction_info": "Successfully solved (MOSEK-SDP)",
+      "gram_sizes": [
+        5,
+        20,
+        15
+      ],
+      "candidate_monomials": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "runs": [
+        {
+          "variant": "unscaled_dd",
+          "solver_problem": 0,
+          "solver_info": "Successfully solved (frlib -> MOSEK)",
+          "wall_seconds": 0.174032,
+          "solver_seconds": 0.0303147,
+          "reduced_gram_sizes": [
+            5,
+            20,
+            15
+          ],
+          "coefficient_residual": 2.5805006530948447e-09,
+          "classification": "invalide",
+          "r_bad": 0.03630188982308092,
+          "candidate_coefficients": [
+            3.3534432490397803,
+            0.00011757744515122823,
+            0.1493837291661854,
+            0.05994139897709974,
+            -1.2301026787698557,
+            -0.00299455624976296,
+            -0.01798616897057071,
+            0.36040496646516296,
+            -0.18610493592665395,
+            0.4047547244131747,
+            0.07438427981611766,
+            0.3716223872595101
+          ],
+          "kernel_residual": [
+            0.018340692020735076,
+            0.02167552538244357
+          ],
+          "raw_file": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\N1_m7_s01_unscaled_dd.json",
+          "witness": {
+            "x": 0.03630188982308092,
+            "Y": -0.002683145161730191
+          }
+        },
+        {
+          "variant": "jet_row_scaled_dd",
+          "solver_problem": 0,
+          "solver_info": "Successfully solved (frlib -> MOSEK)",
+          "wall_seconds": 0.1684768,
+          "solver_seconds": 0.0256934,
+          "reduced_gram_sizes": [
+            5,
+            20,
+            15
+          ],
+          "coefficient_residual": 2.0111418247411552e-09,
+          "classification": "invalide",
+          "r_bad": 0.028720680058626026,
+          "candidate_coefficients": [
+            2.779737182296125,
+            -4.378095877524685e-05,
+            0.09610167682150401,
+            0.036812761978061444,
+            -1.1312501706572453,
+            0.010954745795846018,
+            -0.029603562922843624,
+            0.32244860524540686,
+            -0.1094300252832128,
+            0.29776390562284744,
+            0.04303449838504241,
+            0.3107428718134856
+          ],
+          "kernel_residual": [
+            0.016229478702831136,
+            0.022801691646883466
+          ],
+          "raw_file": "C:\\Users\\angouf\\AppData\\Local\\Temp\\ecc-dd-scaling-5d2f7de4c44349a6a76c0b0d5d434728\\N1_m7_s01_jet_row_scaled_dd.json",
+          "witness": {
+            "x": 0.028720680058626026,
+            "Y": -0.0016672532504831568
+          }
+        }
+      ],
+      "error": ""
+    }
+  ],
+  "error": "",
+  "sdp_orientation": "YALMIP optimize dualize=0; frlib auto therefore reduces the dual",
+  "interpretation": "No additional Gram reduction was detected in this explicit SDP orientation. These runs are not a replay of the archived solvesos baseline.",
+  "timing_scope": "optimize call only; excludes basis extraction, symbolic jet setup and witness classification"
+}

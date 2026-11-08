@@ -1,0 +1,285 @@
+{
+  "status": "passed",
+  "arithmetic": "fractions.Fraction",
+  "checks_passed": 4,
+  "recovered_raw_files_checked": 4,
+  "historical_summary_unchanged": true,
+  "traceability_index_sha256": "1a750ad1938a673a7673cfe5a00a5a82ab98d2ae1ff2f37bd6841d1574510fd8",
+  "scope": "Exact invalidity witnesses and recovered raw-file coherence; historical Gram basis order and reduced-model construction remain unverified because they were not retained.",
+  "checks": [
+    {
+      "instance": "N1_m5_s01",
+      "variant": "unscaled_dd",
+      "inside_strip": true,
+      "dW_strictly_positive_exact": true,
+      "dW_exact": "138874443122846063480689510858291847627667900744356203622630290235064000049218291973390697804687148544083221366597296012778126000042075743143709924970929/281861955060037513311592557667907893607249911137802926875014696471243760837112871094398781917781731410171079979964401720409056219096373481392166116976926235033600",
+      "raw_traceability": {
+        "raw_copy": "data/review_dd_scaling/raw/N1_m5_s01_unscaled_dd.json",
+        "raw_sha256": "cb5e80956a4143dd659efd6b7bd3cf9ab781759332da814742e9cb40b9c54787",
+        "candidate_and_witness_match_summary": true,
+        "Q_blocks_square_symmetric_and_finite": true,
+        "gram_block_sizes": [
+          5,
+          14,
+          10
+        ],
+        "actual_applied_scales": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "scaling_matches_variant_and_recorded_symbolic_targets": true,
+        "ordered_gram_basis_status": "not retained in the recovered historical files; no basis reconstructed",
+        "reported_reduced_gram_sizes": [
+          5,
+          14,
+          10
+        ],
+        "reduced_sizes_independently_reconstructed": false
+      }
+    },
+    {
+      "instance": "N1_m5_s01",
+      "variant": "jet_row_scaled_dd",
+      "inside_strip": true,
+      "dW_strictly_positive_exact": true,
+      "dW_exact": "630792079472925343083097150109783674264197599186846558603042795930835257746012318456889786203344959713587599217880654061877884841351789772871658937557996597/3694421017362923694477705971864802343088946035265410523136192629587886222044205824008503714352748709939394379513389406229745581674939986495303399728439967547832401920",
+      "raw_traceability": {
+        "raw_copy": "data/review_dd_scaling/raw/N1_m5_s01_jet_row_scaled_dd.json",
+        "raw_sha256": "bcc73bb8fda794bcc46af12b77a8311fa624791a987389b6639d29b545949b12",
+        "candidate_and_witness_match_summary": true,
+        "Q_blocks_square_symmetric_and_finite": true,
+        "gram_block_sizes": [
+          5,
+          14,
+          10
+        ],
+        "actual_applied_scales": [
+          [
+            0.5,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0.5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0.5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "scaling_matches_variant_and_recorded_symbolic_targets": true,
+        "ordered_gram_basis_status": "not retained in the recovered historical files; no basis reconstructed",
+        "reported_reduced_gram_sizes": [
+          5,
+          14,
+          10
+        ],
+        "reduced_sizes_independently_reconstructed": false
+      }
+    },
+    {
+      "instance": "N1_m7_s01",
+      "variant": "unscaled_dd",
+      "inside_strip": true,
+      "dW_strictly_positive_exact": true,
+      "dW_exact": "1015914497058303664147422650480811855115553181680436798333506454247936477962381781984766169405554493116610860492317190465586442314085456748393072226641473605246948668065208313348981391972326835863/201629737618630212941693939956753477912759796893498552089583110719816963881451355706124198206688433335818090997105707064395886877280361362367735147435735794796567814676208532922854963672501391409079648256000",
+      "raw_traceability": {
+        "raw_copy": "data/review_dd_scaling/raw/N1_m7_s01_unscaled_dd.json",
+        "raw_sha256": "b1ee7b82d1c83177730255fa78fc4bf60ee24d7feafe7c3714402c9d4ac5146c",
+        "candidate_and_witness_match_summary": true,
+        "Q_blocks_square_symmetric_and_finite": true,
+        "gram_block_sizes": [
+          5,
+          20,
+          15
+        ],
+        "actual_applied_scales": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "scaling_matches_variant_and_recorded_symbolic_targets": true,
+        "ordered_gram_basis_status": "not retained in the recovered historical files; no basis reconstructed",
+        "reported_reduced_gram_sizes": [
+          5,
+          20,
+          15
+        ],
+        "reduced_sizes_independently_reconstructed": false
+      }
+    },
+    {
+      "instance": "N1_m7_s01",
+      "variant": "jet_row_scaled_dd",
+      "inside_strip": true,
+      "dW_strictly_positive_exact": true,
+      "dW_exact": "557757838504902596837422131788705606422770304553895848941023053631285274150484305035358705451896573981699708569378998326083310184611599029066894831801215331697495579018942666866185797860703/6718192007284638498682013826130894724290205644098244134596688403825638113501086404202388944829268915812347888283405483195198229980186967509129034483489739101926457798457593766692376965347818122751508480",
+      "raw_traceability": {
+        "raw_copy": "data/review_dd_scaling/raw/N1_m7_s01_jet_row_scaled_dd.json",
+        "raw_sha256": "c3a9f0466984614fbf1dabc096aea717793bc473c52ba6449e8224f288b64730",
+        "candidate_and_witness_match_summary": true,
+        "Q_blocks_square_symmetric_and_finite": true,
+        "gram_block_sizes": [
+          5,
+          20,
+          15
+        ],
+        "actual_applied_scales": [
+          [
+            0.5,
+            1,
+            1,
+            0.5,
+            1
+          ],
+          [
+            1,
+            0.5,
+            1,
+            1,
+            0.5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            0.5,
+            1,
+            1,
+            0.5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "scaling_matches_variant_and_recorded_symbolic_targets": true,
+        "ordered_gram_basis_status": "not retained in the recovered historical files; no basis reconstructed",
+        "reported_reduced_gram_sizes": [
+          5,
+          20,
+          15
+        ],
+        "reduced_sizes_independently_reconstructed": false
+      }
+    }
+  ]
+}

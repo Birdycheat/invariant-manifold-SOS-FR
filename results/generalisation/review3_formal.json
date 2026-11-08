@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "checks_passed": 4,
+  "checks": [
+    {
+      "id": "feasible_set_includes_epsilon_and_candidate_constraints",
+      "passed": true,
+      "conic_part_only": {
+        "field": "-x**3",
+        "W": "x**2/2",
+        "margin": "x**2",
+        "basis": [
+          "x",
+          "x**2"
+        ],
+        "excluded_points": [
+          {
+            "epsilon": "0",
+            "Q": [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ],
+            "coefficient_identity": true,
+            "gram_psd": true,
+            "satisfies_required_epsilon_positive": false
+          },
+          {
+            "epsilon": "-1",
+            "Q": [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "0",
+                "1"
+              ]
+            ],
+            "coefficient_identity": true,
+            "gram_psd": true,
+            "satisfies_required_epsilon_positive": false
+          }
+        ]
+      },
+      "candidate_positivity_is_separate": {
+        "field": "x**3",
+        "W": "-x**2/2",
+        "margin": "x**4",
+        "epsilon": "1/2",
+        "decrease_residual": "x**4/2",
+        "decrease_SOS": true,
+        "W_positive_definite": false
+      },
+      "meaning": "Affine matching and the decrease Gram cones alone are not the full Lyapunov certificate program."
+    },
+    {
+      "id": "rational_field_does_not_force_rational_arbitrary_graph",
+      "passed": true,
+      "field": [
+        "-x**5",
+        "-2*x**4*y"
+      ],
+      "field_coefficients_rational": true,
+      "invariant_graph_family": "a*x**2",
+      "family_invariance_residual": "0",
+      "selected_graph": "sqrt(2)*x**2",
+      "reduced_field": "-x**5",
+      "m": 5,
+      "q": 2,
+      "basis": [
+        "x**2",
+        "y"
+      ],
+      "C_degree_2": [
+        [
+          "1"
+        ],
+        [
+          "sqrt(2)"
+        ]
+      ],
+      "gamma_at_origin": "1",
+      "H_degree_2": "1/5",
+      "computed_exposer": [
+        [
+          "1/5",
+          "sqrt(2)/5"
+        ],
+        [
+          "sqrt(2)/5",
+          "2/5"
+        ]
+      ],
+      "computed_exposer_psd": true,
+      "computed_exposer_rational": false,
+      "off_diagonal_minimal_polynomial": "25*t**2 - 2",
+      "center_stable_invertible_transverse_linear_part": false,
+      "scope": "Counterexample to rationality from the field alone for an arbitrary invariant graph; no stability certificate or impossibility of other rational exposers is claimed."
+    },
+    {
+      "id": "rational_jet_and_localizer_values_give_rational_exposer",
+      "passed": true,
+      "jet": "2*(x1**2+x2**2)",
+      "gamma_at_origin": "3/2",
+      "C": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "2",
+          "0",
+          "2"
+        ]
+      ],
+      "H": [
+        [
+          "1/5",
+          "0",
+          "1/9"
+        ],
+        [
+          "0",
+          "1/9",
+          "0"
+        ],
+        [
+          "1/9",
+          "0",
+          "1/5"
+        ]
+      ],
+      "Z": [
+        [
+          "3/10",
+          "0",
+          "1/6",
+          "14/15"
+        ],
+        [
+          "0",
+          "1/6",
+          "0",
+          "0"
+        ],
+        [
+          "1/6",
+          "0",
+          "3/10",
+          "14/15"
+        ],
+        [
+          "14/15",
+          "0",
+          "14/15",
+          "56/15"
+        ]
+      ],
+      "rational_nullspace_basis": [
+        [
+          "-2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "meaning": "Rational matrix products and rational nullspace elimination preserve rationality; the condition is sufficient, not necessary."
+    },
+    {
+      "id": "moments_preserve_gram_relations",
+      "passed": true,
+      "meaning": "Cube moments annihilate a null-polynomial Gram direction; I does not.",
+      "basis": [
+        "x1**2",
+        "x1*x2",
+        "x2**2"
+      ],
+      "B": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-2",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "H_uniform_cube": [
+        [
+          "1/5",
+          "0",
+          "1/9"
+        ],
+        [
+          "0",
+          "1/9",
+          "0"
+        ],
+        [
+          "1/9",
+          "0",
+          "1/5"
+        ]
+      ],
+      "polynomial": "0",
+      "inner_H_B": "0",
+      "inner_I_B": "-2",
+      "product_coherence": "H[0,2] = H[1,1] = 1/9, since both products equal x1**2*x2**2",
+      "identity_weight_incoherence": "I[0,2] = 0 but I[1,1] = 1",
+      "determinant_H": "56/18225",
+      "reused_source_sha256": "2c236859b8c45370262e18e7413ffa5bd5244d8b91030f80be856add24160f81"
+    }
+  ],
+  "arithmetic": "exact rational and symbolic algebraic (SymPy)",
+  "sdp_solver_used": false,
+  "sympy_version": "1.14.0",
+  "source_sha256": "1dcadc031f9abaac5a5eb1d019e78d836f0b5cad4233401e15a5881e8cfe7095"
+}

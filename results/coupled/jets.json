@@ -1,0 +1,402 @@
+[
+ {
+  "instance": "cp_ny1_s01.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s02.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s03.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s04.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s05.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s06.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s07.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s08.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s09.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s10.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s11.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s12.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s13.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s14.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s15.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s16.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s17.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s18.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s19.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny1_s20.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s01.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s02.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s03.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s04.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s05.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s06.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s07.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s08.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s09.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s10.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s11.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s12.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s13.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s14.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s15.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s16.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s17.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s18.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s19.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ },
+ {
+  "instance": "cp_ny2_s20.json",
+  "T2_is_phi": true,
+  "T3_is_phi": true,
+  "T4_is_phi_plus_eta": true,
+  "residual_order_above_4": true,
+  "reduced_order_5": true,
+  "leading_field_matches": true,
+  "ok": true
+ }
+]

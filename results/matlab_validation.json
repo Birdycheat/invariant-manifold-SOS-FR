@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "release_date": "2026-11-07",
+  "runtime": "MATLAB only",
+  "tested_MATLAB": "R2025b Update 4",
+  "exact_certificate_verification": {
+    "total": 376,
+    "passed": 376,
+    "method": "Native exact rational verification, partitioned by certificate; each input and arithmetic source hashed"
+  },
+  "rational_matrix_domain_guard": "passed on public helper, including a rational 95x95 matrix and rejection of approximate/complex/algebraic values; Bareiss arithmetic unchanged",
+  "finite_jets": 200,
+  "analytic_BEG_bounds": 45,
+  "independent_coupled_triple_classes": 80,
+  "scalar_anchors": 120,
+  "stored_witnesses": {
+    "total": 1128,
+    "scalar": 764,
+    "coupled": 143,
+    "triple": 109,
+    "beg": 108,
+    "dd_scaling": 4
+  },
+  "transverse_defect_invalidity": {
+    "outputs": 160,
+    "proved": 160,
+    "previously_no_witness": 66
+  },
+  "scalar_native_projection": {
+    "inputs": 124,
+    "proved": 124,
+    "rational_tuples_identical": 124
+  },
+  "numerical_smoke_runs": {
+    "scalar": "completed; exact reconstruction passed",
+    "coupled": "completed; exact reconstruction and independent verification passed",
+    "triple": "completed; exact reconstruction and independent verification passed",
+    "BEG": "completed; four real raw points reconstructed and independently verified after JSON reader correction"
+  },
+  "tables_and_DD_evidence": "passed using base MATLAB",
+  "illustrations": {
+    "count": 3,
+    "formats": [
+      "SVG",
+      "PNG"
+    ],
+    "generator": "code/cm_readme_figures.m"
+  },
+  "integrity": {
+    "historical_files_unchanged": 524,
+    "previous_sealed_archives_unchanged": 5,
+    "executable_source_language": "MATLAB",
+    "manuscripts_or_PDFs": 0
+  },
+  "public_quick_seconds": 86.2605368,
+  "limitations": [
+    "Coupled/triple reproduction starts from the frozen exact instance files; the former random-generator seed stream is not replayed.",
+    "Stored witnesses are checked exactly. New multidimensional/BEG numerical searches do not launch a new automatic witness search.",
+    "Some historical initial floating Gram points and ordered DD bases are unavailable; final retained certificates remain checkable."
+  ],
+  "publication": "Prepared locally for manual publication; no GitHub write was performed"
+}
